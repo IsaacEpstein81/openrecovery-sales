@@ -11,7 +11,28 @@
         "PHP",
         "Teen/Adolescent"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Teens Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Parent Communication",
+          "solution": "Automated parent resource portal",
+          "feature": "Kai Website Plugin (customizable chatbot)"
+        }
+      ],
+      "problems": [
+        "Teens Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Parent Communication"
+      ]
     },
     {
       "id": "avenues",
@@ -23,7 +44,28 @@
         "Residential",
         "Detox"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Alumni Engagement",
+          "solution": "Private alumni community stays connected",
+          "feature": "Communities (private groups with Kai)"
+        },
+        {
+          "problem": "Discharge Planning",
+          "solution": "Track engagement across care levels",
+          "feature": "RecoveryIQ Patterns & Progress Reports"
+        },
+        {
+          "problem": "Multi-Location Consistency",
+          "solution": "Unified platform across all sites",
+          "feature": "RecoveryIQ Enterprise Dashboard"
+        }
+      ],
+      "problems": [
+        "Alumni Engagement",
+        "Discharge Planning",
+        "Multi-Location Consistency"
+      ]
     },
     {
       "id": "bhg",
@@ -35,7 +77,28 @@
         "MAT",
         "Outpatient"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Medication Compliance",
+          "solution": "Daily check-ins track medication adherence",
+          "feature": "RecoveryIQ Spot Check + Push Actions"
+        },
+        {
+          "problem": "Caseload Management",
+          "solution": "Prioritize clients with AI-generated insights",
+          "feature": "RecoveryIQ Dashboard with Kai Co-pilot"
+        },
+        {
+          "problem": "Outcomes Tracking",
+          "solution": "AI generates detailed progress reports",
+          "feature": "RecoveryIQ Patterns & Progress AI Reports"
+        }
+      ],
+      "problems": [
+        "Medication Compliance",
+        "Caseload Management",
+        "Outcomes Tracking"
+      ]
     },
     {
       "id": "burning-tree",
@@ -47,7 +110,28 @@
         "Residential",
         "Long-Term"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Alumni Engagement",
+          "solution": "Private alumni community stays connected",
+          "feature": "Communities (private groups with Kai)"
+        },
+        {
+          "problem": "Family Involvement",
+          "solution": "Family portal with 24/7 resources",
+          "feature": "Kai Website Plugin (RAG-powered Q&A)"
+        },
+        {
+          "problem": "Long-Term Outcomes",
+          "solution": "Track alumni engagement over months",
+          "feature": "RecoveryIQ Long-term Analytics + Communities"
+        }
+      ],
+      "problems": [
+        "Alumni Engagement",
+        "Family Involvement",
+        "Long-Term Outcomes"
+      ]
     },
     {
       "id": "family-care-center",
@@ -62,7 +146,28 @@
         "Outpatient",
         "Teen/Adolescent"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "guardian-recovery",
@@ -77,7 +182,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "harmony-grove-behavioral-health",
@@ -92,7 +218,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "hazelden-betty-ford-foundation",
@@ -107,7 +254,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "health-solutions",
@@ -122,7 +290,28 @@
         "Outpatient",
         "Teen/Adolescent"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "merakey",
@@ -137,7 +326,28 @@
         "Telehealth",
         "Sober Living"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "metrocare-services",
@@ -152,7 +362,28 @@
         "Teen/Adolescent",
         "Telehealth"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "mile-high-recovery-center",
@@ -167,7 +398,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "photo-disclaimer",
@@ -179,7 +431,28 @@
         "MAT",
         "Dual Diagnosis"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Medication Compliance",
+          "solution": "Daily check-ins track medication adherence",
+          "feature": "RecoveryIQ Spot Check + Push Actions"
+        },
+        {
+          "problem": "Caseload Management",
+          "solution": "Prioritize clients with AI-generated insights",
+          "feature": "RecoveryIQ Dashboard with Kai Co-pilot"
+        },
+        {
+          "problem": "Outcomes Tracking",
+          "solution": "AI generates detailed progress reports",
+          "feature": "RecoveryIQ Patterns & Progress AI Reports"
+        }
+      ],
+      "problems": [
+        "Medication Compliance",
+        "Caseload Management",
+        "Outcomes Tracking"
+      ]
     },
     {
       "id": "monte-nido",
@@ -194,7 +467,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "our-facility",
@@ -209,7 +503,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "mountain-west",
@@ -224,7 +539,28 @@
         "Outpatient",
         "Sober Living"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "about-muir-wood-teen-treatment",
@@ -239,7 +575,28 @@
         "Outpatient",
         "Teen/Adolescent"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "home",
@@ -254,7 +611,46 @@
         "Sober Living",
         "Dual Diagnosis"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        },
+        {
+          "problem": "Alumni Engagement",
+          "solution": "Private alumni community stays connected",
+          "feature": "Communities (private groups with Kai)"
+        },
+        {
+          "problem": "Discharge Planning",
+          "solution": "Track engagement across care levels",
+          "feature": "RecoveryIQ Patterns & Progress Reports"
+        },
+        {
+          "problem": "Family Communication",
+          "solution": "Integrated support system",
+          "feature": "Mobile App + RecoveryIQ Dashboard"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance",
+        "Alumni Engagement",
+        "Discharge Planning",
+        "Family Communication"
+      ]
     },
     {
       "id": "p2p-recovery-resources-in-colorado",
@@ -269,7 +665,28 @@
         "Outpatient",
         "Telehealth"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "foster-care-and-adoption",
@@ -284,7 +701,28 @@
         "Teen/Adolescent",
         "Telehealth"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "pasadena-villa",
@@ -299,7 +737,28 @@
         "MAT",
         "Outpatient"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "pinnacle-peak-recovery",
@@ -314,7 +773,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "porch-light-health",
@@ -329,7 +809,28 @@
         "MAT",
         "Outpatient"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "problem-gambling-coalition-of-colorado",
@@ -344,7 +845,28 @@
         "Telehealth",
         "Long-Term"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "red-rock",
@@ -359,7 +881,28 @@
         "Outpatient",
         "Teen/Adolescent"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "redpoint-center",
@@ -374,7 +917,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "resources-for-human-development",
@@ -389,7 +953,28 @@
         "Outpatient",
         "Teen/Adolescent"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "rosecrance-health-network",
@@ -404,7 +989,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "sagent-behavioral-health",
@@ -419,7 +1025,28 @@
         "Telehealth",
         "Long-Term"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "sheppard-pratt",
@@ -434,7 +1061,28 @@
         "MAT",
         "Outpatient"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "sober-is-behavioral-health",
@@ -449,7 +1097,28 @@
         "Sober Living",
         "Long-Term"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "sobriety-house-inc",
@@ -464,7 +1133,28 @@
         "Outpatient",
         "Teen/Adolescent"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "steadman-group-about",
@@ -479,7 +1169,28 @@
         "Telehealth",
         "Long-Term"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Alumni Engagement",
+          "solution": "Private alumni community stays connected",
+          "feature": "Communities (private groups with Kai)"
+        },
+        {
+          "problem": "Discharge Planning",
+          "solution": "Track engagement across care levels",
+          "feature": "RecoveryIQ Patterns & Progress Reports"
+        },
+        {
+          "problem": "Family Communication",
+          "solution": "Integrated support system",
+          "feature": "Mobile App + RecoveryIQ Dashboard"
+        }
+      ],
+      "problems": [
+        "Alumni Engagement",
+        "Discharge Planning",
+        "Family Communication"
+      ]
     },
     {
       "id": "the-harris-center-for-mental-health-and-idd",
@@ -494,7 +1205,28 @@
         "Outpatient",
         "Teen/Adolescent"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "the-menninger-clinic",
@@ -509,7 +1241,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "the-rose-house",
@@ -524,7 +1277,28 @@
         "MAT",
         "Outpatient"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "valiant-living",
@@ -539,7 +1313,28 @@
         "Outpatient",
         "Teen/Adolescent"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "valley-hope",
@@ -554,7 +1349,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "vinfen",
@@ -569,7 +1385,28 @@
         "Outpatient",
         "Teen/Adolescent"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "wellpower",
@@ -584,7 +1421,28 @@
         "Teen/Adolescent",
         "Telehealth"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "west-pines-behavioral-hospital",
@@ -599,7 +1457,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     },
     {
       "id": "zia-recovery-center",
@@ -614,7 +1493,28 @@
         "Detox",
         "MAT"
       ],
-      "solutions": []
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
+      ]
     }
   ]
 }
