@@ -14,18 +14,18 @@
       "solutions": [
         {
           "problem": "Teens Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "For teens, keep momentum with short daily/weekly Actions and quick Spot Checks instead of long assignments. RecoveryIQ shows engagement drop-offs early so clinicians can involve parents/supports appropriately.",
+          "feature": "Actions - Spot Check - RecoveryIQ: User Explorer (Last Seen/Actions 7D)"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Parent Communication",
-          "solution": "Automated parent resource portal",
-          "feature": "Kai Website Plugin (customizable chatbot)"
+          "solution": "For adolescent programs, keep parents aligned with the care plan by translating goals into Actions and using engagement trends to structure checkins. This makes \"how are things going?\" concrete instead of vague.",
+          "feature": "Actions - RecoveryIQ: User Explorer (engagement snapshot)"
         }
       ],
       "problems": [
@@ -47,18 +47,18 @@
       "solutions": [
         {
           "problem": "Alumni Engagement",
-          "solution": "Private alumni community stays connected",
-          "feature": "Communities (private groups with Kai)"
+          "solution": "Keep alumni connected with an alumni Community plus lightweight weekly Actions (meetings, outreach, gratitude). Alumni log Actions/Spot Checks; RecoveryIQ highlights who's drifting so your team can re-engage before they disappear.",
+          "feature": "Communities - Actions - RecoveryIQ: Patterns & Progress"
         },
         {
           "problem": "Discharge Planning",
-          "solution": "Track engagement across care levels",
-          "feature": "RecoveryIQ Patterns & Progress Reports"
+          "solution": "Turn discharge planning into an actionable checklist: staff push a small set of Actions (appointments, meetings, support contacts) and add clear notes/instructions. Track completion in RecoveryIQ and adjust the plan when adherence slips.",
+          "feature": "Actions: Suggest & Push (notes/instructions) - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Multi-Location Consistency",
-          "solution": "Unified platform across all sites",
-          "feature": "RecoveryIQ Enterprise Dashboard"
+          "solution": "Standardize delivery across sites with shared workflows: staff use the same Action library, Observations, and engagement dashboards. Roleplay with AI can also help train staff on consistent language and responses.",
+          "feature": "Actions library - RecoveryIQ workflows - Roleplay with AI"
         }
       ],
       "problems": [
@@ -80,18 +80,18 @@
       "solutions": [
         {
           "problem": "Medication Compliance",
-          "solution": "Daily check-ins track medication adherence",
-          "feature": "RecoveryIQ Spot Check + Push Actions"
+          "solution": "If medication adherence is part of the plan, represent it as a simple daily Action (with reminders via routine) and review trends in RecoveryIQ. When adherence slips, staff can adjust supports and follow up quickly.",
+          "feature": "Actions (daily habit) - RecoveryIQ: Actions 7D"
         },
         {
           "problem": "Caseload Management",
-          "solution": "Prioritize clients with AI-generated insights",
-          "feature": "RecoveryIQ Dashboard with Kai Co-pilot"
+          "solution": "Use RecoveryIQ -> User Explorer to triage your caseload by Day Count, Last Seen, Actions 7D, Spot Check, and Alert Level. Focus outreach on high-risk/low-engagement participants first instead of working a list blindly.",
+          "feature": "RecoveryIQ: User Explorer (Actions/Spot Checks/Alert Level)"
         },
         {
           "problem": "Outcomes Tracking",
-          "solution": "AI generates detailed progress reports",
-          "feature": "RecoveryIQ Patterns & Progress AI Reports"
+          "solution": "Track outcomes continuously using participation signals (Actions/Spot Checks) and Patterns & Progress summaries. This gives your org a consistent way to measure momentum and risk-not just discharge outcomes.",
+          "feature": "RecoveryIQ: Patterns & Progress - Actions/Spot Checks"
         }
       ],
       "problems": [
@@ -113,18 +113,18 @@
       "solutions": [
         {
           "problem": "Alumni Engagement",
-          "solution": "Private alumni community stays connected",
-          "feature": "Communities (private groups with Kai)"
+          "solution": "Keep alumni connected with an alumni Community plus lightweight weekly Actions (meetings, outreach, gratitude). Alumni log Actions/Spot Checks; RecoveryIQ highlights who's drifting so your team can re-engage before they disappear.",
+          "feature": "Communities - Actions - RecoveryIQ: Patterns & Progress"
         },
         {
           "problem": "Family Involvement",
-          "solution": "Family portal with 24/7 resources",
-          "feature": "Kai Website Plugin (RAG-powered Q&A)"
+          "solution": "Make family support more consistent by giving clear, concrete goals (Actions) and an easy way to stay engaged via Communities. Staff can anchor family check-ins around the same progress signals they use clinically.",
+          "feature": "Actions - Communities - RecoveryIQ (progress snapshot)"
         },
         {
           "problem": "Long-Term Outcomes",
-          "solution": "Track alumni engagement over months",
-          "feature": "RecoveryIQ Long-term Analytics + Communities"
+          "solution": "Sustain progress by keeping a steady rhythm of Actions + Spot Checks and using Patterns & Progress to measure what's changing over time. Your team gets a continuous view of momentum, not just episodic session notes.",
+          "feature": "Spot Check - Actions - RecoveryIQ: Patterns & Progress"
         }
       ],
       "problems": [
@@ -148,38 +148,38 @@
       "solutions": [
         {
           "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
+          "solution": "Boost engagement with Kai for day-to-day support plus a weekly Action plan pushed from RecoveryIQ. When engagement drops (less Kai, fewer Actions/Spot Checks), RecoveryIQ makes it visible so staff can act.",
+          "feature": "Kai - Actions - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "High dropout / early disengagement",
-          "solution": "Detect disengagement early and trigger outreach workflows to re-engage before clients drop.",
-          "feature": "RecoveryIQ risk flags + outreach tasks"
+          "solution": "Catch disengagement early with Spot Checks and Action completion signals. RecoveryIQ surfaces \"Last Seen\" and participation gaps so outreach happens before a quiet dropout becomes a lost patient.",
+          "feature": "Spot Check - Actions - RecoveryIQ: User Explorer (Last Seen/Alert Level)"
         },
         {
           "problem": "Staff documentation burden",
-          "solution": "Reduce repetitive documentation with structured notes, summaries, and reusable templates.",
-          "feature": "RecoveryIQ session notes + templates"
+          "solution": "Use structured Observations and automated Patterns & Progress summaries so staff spend less time writing and more time supporting. It also keeps documentation more consistent across clinicians.",
+          "feature": "RecoveryIQ: Make an Observation - Patterns & Progress Report"
         },
         {
           "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
+          "solution": "Create a shared plan where staff can make Observations, assign/push Actions, and see the same engagement signals in one place. The whole team (clinical + peer + case management) can coordinate around what the participant is actually doing between sessions.",
+          "feature": "RecoveryIQ: Observations - Actions: Push to App - User Explorer"
         },
         {
           "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
+          "solution": "Generate clearer payer/grant storylines using Patterns & Progress + engagement trends (Last Seen, Actions 7D, Spot Checks). This helps you communicate impact with both numbers and narrative.",
+          "feature": "RecoveryIQ: Patterns & Progress - User Explorer"
         },
         {
           "problem": "Referral & intake friction",
-          "solution": "Streamline intake questions and route clients to the right level of care faster.",
-          "feature": "Guided intake + routing rules"
+          "solution": "Reduce friction by giving new clients a fast first step: a simple initial Action plan + an immediate Kai checkin to build momentum. Staff can then follow up using RecoveryIQ engagement signals rather than waiting for a missed appointment.",
+          "feature": "Actions - Kai - RecoveryIQ: Last Seen/Engagement"
         },
         {
           "problem": "Co-occurring MH/SUD needs unmanaged",
-          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
-          "feature": "Kai + condition-specific resources"
+          "solution": "Give participants structured support between sessions: Kai can help them work through tough moments, while clinicians push targeted Actions and review engagement trends to adapt treatment (SUD + MH) in real time.",
+          "feature": "Kai - Actions - RecoveryIQ: User Explorer"
         }
       ],
       "problems": [
@@ -206,38 +206,38 @@
       "solutions": [
         {
           "problem": "Discharge planning & aftercare gaps",
-          "solution": "Provide a structured aftercare plan with community support, meetings, and ongoing check-ins post-discharge.",
-          "feature": "Aftercare plan + Communities + meeting links"
+          "solution": "Bridge aftercare with a clear Action roadmap plus Community support. If the participant stops checking in (Spot Check) or completing Actions, RecoveryIQ flags the drop-off so your team can re-engage fast.",
+          "feature": "Actions - Spot Check - Communities - RecoveryIQ: Alert Level"
         },
         {
           "problem": "Relapse/craving moments after hours",
-          "solution": "Offer immediate, judgment-free support and step-by-step coping guidance when cravings hit.",
-          "feature": "Kai crisis/craving playbooks"
+          "solution": "When risk spikes outside business hours, Kai provides immediate support and next-step planning. The next business day, staff can review engagement and push a focused Action plan to stabilize routines.",
+          "feature": "Kai - RecoveryIQ: User Explorer (Kai Messages/Alert Level) - Actions"
         },
         {
           "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
+          "solution": "Generate clearer payer/grant storylines using Patterns & Progress + engagement trends (Last Seen, Actions 7D, Spot Checks). This helps you communicate impact with both numbers and narrative.",
+          "feature": "RecoveryIQ: Patterns & Progress - User Explorer"
         },
         {
           "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
+          "solution": "Boost engagement with Kai for day-to-day support plus a weekly Action plan pushed from RecoveryIQ. When engagement drops (less Kai, fewer Actions/Spot Checks), RecoveryIQ makes it visible so staff can act.",
+          "feature": "Kai - Actions - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Peer/sponsor matching is hard",
-          "solution": "Help clients find accountable support and match by needs/availability.",
-          "feature": "Sponsor Connect + buddy call lists"
+          "solution": "Use Communities to create clear \"lanes\" for peer support (e.g., sponsor connect, alumni, MAT, teens). Staff can recommend a community and reinforce engagement with small Actions tied to peer support.",
+          "feature": "Communities - Actions"
         },
         {
           "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
+          "solution": "Create a shared plan where staff can make Observations, assign/push Actions, and see the same engagement signals in one place. The whole team (clinical + peer + case management) can coordinate around what the participant is actually doing between sessions.",
+          "feature": "RecoveryIQ: Observations - Actions: Push to App - User Explorer"
         },
         {
           "problem": "Co-occurring MH/SUD needs unmanaged",
-          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
-          "feature": "Kai + condition-specific resources"
+          "solution": "Give participants structured support between sessions: Kai can help them work through tough moments, while clinicians push targeted Actions and review engagement trends to adapt treatment (SUD + MH) in real time.",
+          "feature": "Kai - Actions - RecoveryIQ: User Explorer"
         }
       ],
       "problems": [
@@ -265,43 +265,43 @@
       "solutions": [
         {
           "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
+          "solution": "Boost engagement with Kai for day-to-day support plus a weekly Action plan pushed from RecoveryIQ. When engagement drops (less Kai, fewer Actions/Spot Checks), RecoveryIQ makes it visible so staff can act.",
+          "feature": "Kai - Actions - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "High dropout / early disengagement",
-          "solution": "Detect disengagement early and trigger outreach workflows to re-engage before clients drop.",
-          "feature": "RecoveryIQ risk flags + outreach tasks"
+          "solution": "Catch disengagement early with Spot Checks and Action completion signals. RecoveryIQ surfaces \"Last Seen\" and participation gaps so outreach happens before a quiet dropout becomes a lost patient.",
+          "feature": "Spot Check - Actions - RecoveryIQ: User Explorer (Last Seen/Alert Level)"
         },
         {
           "problem": "Staff documentation burden",
-          "solution": "Reduce repetitive documentation with structured notes, summaries, and reusable templates.",
-          "feature": "RecoveryIQ session notes + templates"
+          "solution": "Use structured Observations and automated Patterns & Progress summaries so staff spend less time writing and more time supporting. It also keeps documentation more consistent across clinicians.",
+          "feature": "RecoveryIQ: Make an Observation - Patterns & Progress Report"
         },
         {
           "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
+          "solution": "Create a shared plan where staff can make Observations, assign/push Actions, and see the same engagement signals in one place. The whole team (clinical + peer + case management) can coordinate around what the participant is actually doing between sessions.",
+          "feature": "RecoveryIQ: Observations - Actions: Push to App - User Explorer"
         },
         {
           "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
+          "solution": "Generate clearer payer/grant storylines using Patterns & Progress + engagement trends (Last Seen, Actions 7D, Spot Checks). This helps you communicate impact with both numbers and narrative.",
+          "feature": "RecoveryIQ: Patterns & Progress - User Explorer"
         },
         {
           "problem": "Referral & intake friction",
-          "solution": "Streamline intake questions and route clients to the right level of care faster.",
-          "feature": "Guided intake + routing rules"
+          "solution": "Reduce friction by giving new clients a fast first step: a simple initial Action plan + an immediate Kai checkin to build momentum. Staff can then follow up using RecoveryIQ engagement signals rather than waiting for a missed appointment.",
+          "feature": "Actions - Kai - RecoveryIQ: Last Seen/Engagement"
         },
         {
           "problem": "Family involvement is inconsistent",
-          "solution": "Give families safe ways to support recovery with guidance and shared plans.",
-          "feature": "Family support resources + shared plans"
+          "solution": "When family engagement drops, staff can assign a simple weekly Action plan (e.g., one supportive checkin, attend a family group) and track whether it happens. Use Communities to keep resources and support available asynchronously.",
+          "feature": "Actions - Communities - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Co-occurring MH/SUD needs unmanaged",
-          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
-          "feature": "Kai + condition-specific resources"
+          "solution": "Give participants structured support between sessions: Kai can help them work through tough moments, while clinicians push targeted Actions and review engagement trends to adapt treatment (SUD + MH) in real time.",
+          "feature": "Kai - Actions - RecoveryIQ: User Explorer"
         }
       ],
       "problems": [
@@ -330,38 +330,38 @@
       "solutions": [
         {
           "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
+          "solution": "Boost engagement with Kai for day-to-day support plus a weekly Action plan pushed from RecoveryIQ. When engagement drops (less Kai, fewer Actions/Spot Checks), RecoveryIQ makes it visible so staff can act.",
+          "feature": "Kai - Actions - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "High dropout / early disengagement",
-          "solution": "Detect disengagement early and trigger outreach workflows to re-engage before clients drop.",
-          "feature": "RecoveryIQ risk flags + outreach tasks"
+          "solution": "Catch disengagement early with Spot Checks and Action completion signals. RecoveryIQ surfaces \"Last Seen\" and participation gaps so outreach happens before a quiet dropout becomes a lost patient.",
+          "feature": "Spot Check - Actions - RecoveryIQ: User Explorer (Last Seen/Alert Level)"
         },
         {
           "problem": "Group attendance & participation issues",
-          "solution": "Improve group readiness, reminders, and follow-through to boost attendance.",
-          "feature": "Smart reminders + group prep prompts"
+          "solution": "Use Actions to turn group attendance into a simple, trackable habit (with weekly goals), then follow up when attendance drops. Communities also give people a way to participate asynchronously when they can't make a session.",
+          "feature": "Actions (weekly goal) - Communities - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
+          "solution": "Create a shared plan where staff can make Observations, assign/push Actions, and see the same engagement signals in one place. The whole team (clinical + peer + case management) can coordinate around what the participant is actually doing between sessions.",
+          "feature": "RecoveryIQ: Observations - Actions: Push to App - User Explorer"
         },
         {
           "problem": "Family involvement is inconsistent",
-          "solution": "Give families safe ways to support recovery with guidance and shared plans.",
-          "feature": "Family support resources + shared plans"
+          "solution": "When family engagement drops, staff can assign a simple weekly Action plan (e.g., one supportive checkin, attend a family group) and track whether it happens. Use Communities to keep resources and support available asynchronously.",
+          "feature": "Actions - Communities - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Co-occurring MH/SUD needs unmanaged",
-          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
-          "feature": "Kai + condition-specific resources"
+          "solution": "Give participants structured support between sessions: Kai can help them work through tough moments, while clinicians push targeted Actions and review engagement trends to adapt treatment (SUD + MH) in real time.",
+          "feature": "Kai - Actions - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
+          "solution": "Generate clearer payer/grant storylines using Patterns & Progress + engagement trends (Last Seen, Actions 7D, Spot Checks). This helps you communicate impact with both numbers and narrative.",
+          "feature": "RecoveryIQ: Patterns & Progress - User Explorer"
         }
       ],
       "problems": [
@@ -386,23 +386,23 @@
       "solutions": [
         {
           "problem": "Referral & intake friction",
-          "solution": "Streamline intake questions and route clients to the right level of care faster.",
-          "feature": "Guided intake + routing rules"
+          "solution": "Reduce friction by giving new clients a fast first step: a simple initial Action plan + an immediate Kai checkin to build momentum. Staff can then follow up using RecoveryIQ engagement signals rather than waiting for a missed appointment.",
+          "feature": "Actions - Kai - RecoveryIQ: Last Seen/Engagement"
         },
         {
           "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
+          "solution": "Boost engagement with Kai for day-to-day support plus a weekly Action plan pushed from RecoveryIQ. When engagement drops (less Kai, fewer Actions/Spot Checks), RecoveryIQ makes it visible so staff can act.",
+          "feature": "Kai - Actions - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
+          "solution": "Create a shared plan where staff can make Observations, assign/push Actions, and see the same engagement signals in one place. The whole team (clinical + peer + case management) can coordinate around what the participant is actually doing between sessions.",
+          "feature": "RecoveryIQ: Observations - Actions: Push to App - User Explorer"
         },
         {
           "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
+          "solution": "Generate clearer payer/grant storylines using Patterns & Progress + engagement trends (Last Seen, Actions 7D, Spot Checks). This helps you communicate impact with both numbers and narrative.",
+          "feature": "RecoveryIQ: Patterns & Progress - User Explorer"
         }
       ],
       "problems": [
@@ -426,33 +426,33 @@
       "solutions": [
         {
           "problem": "Discharge planning & aftercare gaps",
-          "solution": "Provide a structured aftercare plan with community support, meetings, and ongoing check-ins post-discharge.",
-          "feature": "Aftercare plan + Communities + meeting links"
+          "solution": "Bridge aftercare with a clear Action roadmap plus Community support. If the participant stops checking in (Spot Check) or completing Actions, RecoveryIQ flags the drop-off so your team can re-engage fast.",
+          "feature": "Actions - Spot Check - Communities - RecoveryIQ: Alert Level"
         },
         {
           "problem": "Relapse/craving moments after hours",
-          "solution": "Offer immediate, judgment-free support and step-by-step coping guidance when cravings hit.",
-          "feature": "Kai crisis/craving playbooks"
+          "solution": "When risk spikes outside business hours, Kai provides immediate support and next-step planning. The next business day, staff can review engagement and push a focused Action plan to stabilize routines.",
+          "feature": "Kai - RecoveryIQ: User Explorer (Kai Messages/Alert Level) - Actions"
         },
         {
           "problem": "Peer/sponsor matching is hard",
-          "solution": "Help clients find accountable support and match by needs/availability.",
-          "feature": "Sponsor Connect + buddy call lists"
+          "solution": "Use Communities to create clear \"lanes\" for peer support (e.g., sponsor connect, alumni, MAT, teens). Staff can recommend a community and reinforce engagement with small Actions tied to peer support.",
+          "feature": "Communities - Actions"
         },
         {
           "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
+          "solution": "Boost engagement with Kai for day-to-day support plus a weekly Action plan pushed from RecoveryIQ. When engagement drops (less Kai, fewer Actions/Spot Checks), RecoveryIQ makes it visible so staff can act.",
+          "feature": "Kai - Actions - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Family involvement is inconsistent",
-          "solution": "Give families safe ways to support recovery with guidance and shared plans.",
-          "feature": "Family support resources + shared plans"
+          "solution": "When family engagement drops, staff can assign a simple weekly Action plan (e.g., one supportive checkin, attend a family group) and track whether it happens. Use Communities to keep resources and support available asynchronously.",
+          "feature": "Actions - Communities - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Group attendance & participation issues",
-          "solution": "Improve group readiness, reminders, and follow-through to boost attendance.",
-          "feature": "Smart reminders + group prep prompts"
+          "solution": "Use Actions to turn group attendance into a simple, trackable habit (with weekly goals), then follow up when attendance drops. Communities also give people a way to participate asynchronously when they can't make a session.",
+          "feature": "Actions (weekly goal) - Communities - RecoveryIQ: User Explorer"
         }
       ],
       "problems": [
@@ -479,38 +479,38 @@
       "solutions": [
         {
           "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
+          "solution": "Boost engagement with Kai for day-to-day support plus a weekly Action plan pushed from RecoveryIQ. When engagement drops (less Kai, fewer Actions/Spot Checks), RecoveryIQ makes it visible so staff can act.",
+          "feature": "Kai - Actions - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "High dropout / early disengagement",
-          "solution": "Detect disengagement early and trigger outreach workflows to re-engage before clients drop.",
-          "feature": "RecoveryIQ risk flags + outreach tasks"
+          "solution": "Catch disengagement early with Spot Checks and Action completion signals. RecoveryIQ surfaces \"Last Seen\" and participation gaps so outreach happens before a quiet dropout becomes a lost patient.",
+          "feature": "Spot Check - Actions - RecoveryIQ: User Explorer (Last Seen/Alert Level)"
         },
         {
           "problem": "Staff documentation burden",
-          "solution": "Reduce repetitive documentation with structured notes, summaries, and reusable templates.",
-          "feature": "RecoveryIQ session notes + templates"
+          "solution": "Use structured Observations and automated Patterns & Progress summaries so staff spend less time writing and more time supporting. It also keeps documentation more consistent across clinicians.",
+          "feature": "RecoveryIQ: Make an Observation - Patterns & Progress Report"
         },
         {
           "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
+          "solution": "Create a shared plan where staff can make Observations, assign/push Actions, and see the same engagement signals in one place. The whole team (clinical + peer + case management) can coordinate around what the participant is actually doing between sessions.",
+          "feature": "RecoveryIQ: Observations - Actions: Push to App - User Explorer"
         },
         {
           "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
+          "solution": "Generate clearer payer/grant storylines using Patterns & Progress + engagement trends (Last Seen, Actions 7D, Spot Checks). This helps you communicate impact with both numbers and narrative.",
+          "feature": "RecoveryIQ: Patterns & Progress - User Explorer"
         },
         {
           "problem": "Referral & intake friction",
-          "solution": "Streamline intake questions and route clients to the right level of care faster.",
-          "feature": "Guided intake + routing rules"
+          "solution": "Reduce friction by giving new clients a fast first step: a simple initial Action plan + an immediate Kai checkin to build momentum. Staff can then follow up using RecoveryIQ engagement signals rather than waiting for a missed appointment.",
+          "feature": "Actions - Kai - RecoveryIQ: Last Seen/Engagement"
         },
         {
           "problem": "Co-occurring MH/SUD needs unmanaged",
-          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
-          "feature": "Kai + condition-specific resources"
+          "solution": "Give participants structured support between sessions: Kai can help them work through tough moments, while clinicians push targeted Actions and review engagement trends to adapt treatment (SUD + MH) in real time.",
+          "feature": "Kai - Actions - RecoveryIQ: User Explorer"
         }
       ],
       "problems": [
@@ -539,33 +539,33 @@
       "solutions": [
         {
           "problem": "Referral & intake friction",
-          "solution": "Streamline intake questions and route clients to the right level of care faster.",
-          "feature": "Guided intake + routing rules"
+          "solution": "Reduce friction by giving new clients a fast first step: a simple initial Action plan + an immediate Kai checkin to build momentum. Staff can then follow up using RecoveryIQ engagement signals rather than waiting for a missed appointment.",
+          "feature": "Actions - Kai - RecoveryIQ: Last Seen/Engagement"
         },
         {
           "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
+          "solution": "Boost engagement with Kai for day-to-day support plus a weekly Action plan pushed from RecoveryIQ. When engagement drops (less Kai, fewer Actions/Spot Checks), RecoveryIQ makes it visible so staff can act.",
+          "feature": "Kai - Actions - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Relapse/craving moments after hours",
-          "solution": "Offer immediate, judgment-free support and step-by-step coping guidance when cravings hit.",
-          "feature": "Kai crisis/craving playbooks"
+          "solution": "When risk spikes outside business hours, Kai provides immediate support and next-step planning. The next business day, staff can review engagement and push a focused Action plan to stabilize routines.",
+          "feature": "Kai - RecoveryIQ: User Explorer (Kai Messages/Alert Level) - Actions"
         },
         {
           "problem": "Discharge planning & aftercare gaps",
-          "solution": "Provide a structured aftercare plan with community support, meetings, and ongoing check-ins post-discharge.",
-          "feature": "Aftercare plan + Communities + meeting links"
+          "solution": "Bridge aftercare with a clear Action roadmap plus Community support. If the participant stops checking in (Spot Check) or completing Actions, RecoveryIQ flags the drop-off so your team can re-engage fast.",
+          "feature": "Actions - Spot Check - Communities - RecoveryIQ: Alert Level"
         },
         {
           "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
+          "solution": "Generate clearer payer/grant storylines using Patterns & Progress + engagement trends (Last Seen, Actions 7D, Spot Checks). This helps you communicate impact with both numbers and narrative.",
+          "feature": "RecoveryIQ: Patterns & Progress - User Explorer"
         },
         {
           "problem": "Peer/sponsor matching is hard",
-          "solution": "Help clients find accountable support and match by needs/availability.",
-          "feature": "Sponsor Connect + buddy call lists"
+          "solution": "Use Communities to create clear \"lanes\" for peer support (e.g., sponsor connect, alumni, MAT, teens). Staff can recommend a community and reinforce engagement with small Actions tied to peer support.",
+          "feature": "Communities - Actions"
         }
       ],
       "problems": [
@@ -592,33 +592,33 @@
       "solutions": [
         {
           "problem": "Discharge planning & aftercare gaps",
-          "solution": "Provide a structured aftercare plan with community support, meetings, and ongoing check-ins post-discharge.",
-          "feature": "Aftercare plan + Communities + meeting links"
+          "solution": "Bridge aftercare with a clear Action roadmap plus Community support. If the participant stops checking in (Spot Check) or completing Actions, RecoveryIQ flags the drop-off so your team can re-engage fast.",
+          "feature": "Actions - Spot Check - Communities - RecoveryIQ: Alert Level"
         },
         {
           "problem": "Relapse/craving moments after hours",
-          "solution": "Offer immediate, judgment-free support and step-by-step coping guidance when cravings hit.",
-          "feature": "Kai crisis/craving playbooks"
+          "solution": "When risk spikes outside business hours, Kai provides immediate support and next-step planning. The next business day, staff can review engagement and push a focused Action plan to stabilize routines.",
+          "feature": "Kai - RecoveryIQ: User Explorer (Kai Messages/Alert Level) - Actions"
         },
         {
           "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
+          "solution": "Boost engagement with Kai for day-to-day support plus a weekly Action plan pushed from RecoveryIQ. When engagement drops (less Kai, fewer Actions/Spot Checks), RecoveryIQ makes it visible so staff can act.",
+          "feature": "Kai - Actions - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Group attendance & participation issues",
-          "solution": "Improve group readiness, reminders, and follow-through to boost attendance.",
-          "feature": "Smart reminders + group prep prompts"
+          "solution": "Use Actions to turn group attendance into a simple, trackable habit (with weekly goals), then follow up when attendance drops. Communities also give people a way to participate asynchronously when they can't make a session.",
+          "feature": "Actions (weekly goal) - Communities - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
+          "solution": "Create a shared plan where staff can make Observations, assign/push Actions, and see the same engagement signals in one place. The whole team (clinical + peer + case management) can coordinate around what the participant is actually doing between sessions.",
+          "feature": "RecoveryIQ: Observations - Actions: Push to App - User Explorer"
         },
         {
           "problem": "Co-occurring MH/SUD needs unmanaged",
-          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
-          "feature": "Kai + condition-specific resources"
+          "solution": "Give participants structured support between sessions: Kai can help them work through tough moments, while clinicians push targeted Actions and review engagement trends to adapt treatment (SUD + MH) in real time.",
+          "feature": "Kai - Actions - RecoveryIQ: User Explorer"
         }
       ],
       "problems": [
@@ -645,23 +645,23 @@
       "solutions": [
         {
           "problem": "Finding the right peer support community is hard",
-          "solution": "Match people into supportive groups and conversations that feel safe and relevant.",
-          "feature": "Communities + Buddy Calls"
+          "solution": "Help people find the right support faster by routing them into purpose-built Communities (e.g., MAT, teens, family, 12step, SMART). Once they join, keep engagement up with small weekly Actions tied to that community.",
+          "feature": "Communities - Actions"
         },
         {
           "problem": "Co-occurring anxiety/depression needs support too",
-          "solution": "Tools and check-ins that support mental health alongside recovery and escalate when needed.",
-          "feature": "Kai + RecoveryIQ"
+          "solution": "Provide \"in-the-moment\" help with Kai plus a concrete weekly coping plan via Actions (sleep, routines, coping skills, social support). Clinicians track follow-through and adjust the plan based on what's actually happening.",
+          "feature": "Kai - Actions - RecoveryIQ: Patterns & Progress"
         },
         {
           "problem": "Stigma keeps people from asking for help",
-          "solution": "Private, low-friction support entry point and anonymous community options.",
-          "feature": "Kai + Communities"
+          "solution": "Lower the barrier to reaching out with a private, judgment-free first step (Talk to Kai). From there, participants can join Communities and start small Actions to build momentum without feeling \"on display.\"",
+          "feature": "Kai: Talk to Kai - Communities - Actions"
         },
         {
           "problem": "Family needs education and support",
-          "solution": "Shareable resources + guided ways for family to support without enabling.",
-          "feature": "Resource Library + Share links"
+          "solution": "Offer an on-demand set of recovery education resources through Communities, and encourage low-friction support steps (Actions) like attending family group, learning about triggers, and practicing supportive language.",
+          "feature": "Communities - Actions"
         }
       ],
       "problems": [
@@ -686,28 +686,28 @@
       "solutions": [
         {
           "problem": "Treatment is expensive / hard to navigate financially",
-          "solution": "Clear options + scholarship/coverage guidance + step-by-step planning.",
-          "feature": "Kai + Resource Library"
+          "solution": "Help clients navigate treatment by turning the plan into clear next steps (Actions) and using Kai to answer \"what do I do next?\" questions between visits. While not a payments tool, it reduces confusion and missed steps that waste care time.",
+          "feature": "Actions - Kai"
         },
         {
           "problem": "Discharge / step-down transitions are fragile",
-          "solution": "Structured post-discharge plan + check-ins + connection to community supports.",
-          "feature": "Recovery Plan + Communities"
+          "solution": "Create a step-down Action plan (weekly goals + routines + recovery supports) and keep the participant connected to the right Communities. RecoveryIQ helps you spot early drop-off after discharge so you can reach out before relapse risk spikes.",
+          "feature": "Actions (weekly goal) - Communities - RecoveryIQ: Alert Level / Engagement"
         },
         {
           "problem": "Finding the right peer support community is hard",
-          "solution": "Match people into supportive groups and conversations that feel safe and relevant.",
-          "feature": "Communities + Buddy Calls"
+          "solution": "Help people find the right support faster by routing them into purpose-built Communities (e.g., MAT, teens, family, 12step, SMART). Once they join, keep engagement up with small weekly Actions tied to that community.",
+          "feature": "Communities - Actions"
         },
         {
           "problem": "Cravings or urges outside of appointments",
-          "solution": "On-demand support + personalized coping plan so people can ride out cravings safely.",
-          "feature": "Kai chatbot (24/7) + Recovery Plan"
+          "solution": "When cravings hit, participants can open Kai for a guided \"what to do right now\" conversation. Clinicians can then push a specific Action plan (call sponsor, coping skill, meeting) and monitor follow-through in RecoveryIQ.",
+          "feature": "Kai - Actions: Push to App - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Hard to stay accountable between sessions",
-          "solution": "Daily goals, streaks, and gentle nudges that make recovery habits stick.",
-          "feature": "Recovery Plan + Notifications"
+          "solution": "Clinicians create a habit list with Actions, push it to the participant's app, and set a weekly goal. RecoveryIQ shows who is following through (Actions 7D) so you can coach, adjust, and recommit in the next session.",
+          "feature": "Actions: Suggest & Push - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -733,28 +733,28 @@
       "solutions": [
         {
           "problem": "Finding the right peer support community is hard",
-          "solution": "Match people into supportive groups and conversations that feel safe and relevant.",
-          "feature": "Communities + Buddy Calls"
+          "solution": "Help people find the right support faster by routing them into purpose-built Communities (e.g., MAT, teens, family, 12step, SMART). Once they join, keep engagement up with small weekly Actions tied to that community.",
+          "feature": "Communities - Actions"
         },
         {
           "problem": "Hard to stay accountable between sessions",
-          "solution": "Daily goals, streaks, and gentle nudges that make recovery habits stick.",
-          "feature": "Recovery Plan + Notifications"
+          "solution": "Clinicians create a habit list with Actions, push it to the participant's app, and set a weekly goal. RecoveryIQ shows who is following through (Actions 7D) so you can coach, adjust, and recommit in the next session.",
+          "feature": "Actions: Suggest & Push - RecoveryIQ: Actions 7D"
         },
         {
           "problem": "Discharge / step-down transitions are fragile",
-          "solution": "Structured post-discharge plan + check-ins + connection to community supports.",
-          "feature": "Recovery Plan + Communities"
+          "solution": "Create a step-down Action plan (weekly goals + routines + recovery supports) and keep the participant connected to the right Communities. RecoveryIQ helps you spot early drop-off after discharge so you can reach out before relapse risk spikes.",
+          "feature": "Actions (weekly goal) - Communities - RecoveryIQ: Alert Level / Engagement"
         },
         {
           "problem": "Treatment is expensive / hard to navigate financially",
-          "solution": "Clear options + scholarship/coverage guidance + step-by-step planning.",
-          "feature": "Kai + Resource Library"
+          "solution": "Help clients navigate treatment by turning the plan into clear next steps (Actions) and using Kai to answer \"what do I do next?\" questions between visits. While not a payments tool, it reduces confusion and missed steps that waste care time.",
+          "feature": "Actions - Kai"
         },
         {
           "problem": "Family needs education and support",
-          "solution": "Shareable resources + guided ways for family to support without enabling.",
-          "feature": "Resource Library + Share links"
+          "solution": "Offer an on-demand set of recovery education resources through Communities, and encourage low-friction support steps (Actions) like attending family group, learning about triggers, and practicing supportive language.",
+          "feature": "Communities - Actions"
         }
       ],
       "problems": [
@@ -778,18 +778,18 @@
       "solutions": [
         {
           "problem": "Staff training and fidelity is inconsistent",
-          "solution": "Just-in-time coaching + scenario practice + skill refreshers.",
-          "feature": "Kai coaching mode + Training library"
+          "solution": "Train staff with Roleplay with AI to practice real-life scenarios and maintain consistent language and approach. This supports fidelity across new hires and multiple sites.",
+          "feature": "Roleplay with AI (training scenarios)"
         },
         {
           "problem": "Need better outcomes reporting for payers/grants",
-          "solution": "Standardized metrics + dashboards + exportable reports.",
-          "feature": "RecoveryIQ analytics"
+          "solution": "Use RecoveryIQ engagement metrics and the Patterns & Progress narrative summaries to support grant reporting and payer conversations. You can demonstrate both participation (Actions/Spot Checks) and qualitative progress signals.",
+          "feature": "RecoveryIQ: Patterns & Progress - User Explorer (engagement metrics)"
         },
         {
           "problem": "Patients struggle to engage with care plans",
-          "solution": "Personalized content and goal-setting tied to what matters to them.",
-          "feature": "Recovery Profile + Kai"
+          "solution": "Make the care plan doable: convert big goals into a small set of Actions with clear instructions, and use Kai to coach through barriers day-to-day. Staff track progress in RecoveryIQ and update the plan as needed.",
+          "feature": "Actions - Kai - RecoveryIQ: Actions tracking"
         }
       ],
       "problems": [
@@ -812,23 +812,23 @@
       "solutions": [
         {
           "problem": "Clinicians spend too much time on documentation",
-          "solution": "Capture structured notes and automate summaries to reduce admin burden.",
-          "feature": "RecoveryIQ dashboard"
+          "solution": "Reduce note-writing by capturing quick structured Observations and leaning on Patterns & Progress summaries to prep for sessions. You walk into the appointment with a clear snapshot of what's standing out and what support to offer next.",
+          "feature": "RecoveryIQ: Make an Observation - Patterns & Progress Report"
         },
         {
           "problem": "Billing, claims, and denials slow reimbursement",
-          "solution": "Workflow prompts + reporting + data quality checks to reduce denials.",
-          "feature": "RecoveryIQ reporting"
+          "solution": "OpenRecovery isn't a billing system, but it helps you document engagement and progress more cleanly. Use Patterns & Progress summaries plus Action/Spot-Check participation trends to support utilization review and payer/grant reporting.",
+          "feature": "RecoveryIQ: Patterns & Progress - User Explorer (engagement trends)"
         },
         {
           "problem": "Compliance (HIPAA/42 CFR Part 2) is complex",
-          "solution": "Role-based access + secure workflows + audit-friendly documentation patterns.",
-          "feature": "RecoveryIQ + Security controls"
+          "solution": "Keep sensitive workflows safer by relying on structured check-ins (Spot Checks) and Action tracking instead of long freetext threads. When implementing, align access, consent, and data-sharing rules with your compliance team's HIPAA/Part 2 policies.",
+          "feature": "Spot Check (structured check-ins) - Actions tracking - RecoveryIQ (staff dashboard)"
         },
         {
           "problem": "Need better outcomes reporting for payers/grants",
-          "solution": "Standardized metrics + dashboards + exportable reports.",
-          "feature": "RecoveryIQ analytics"
+          "solution": "Use RecoveryIQ engagement metrics and the Patterns & Progress narrative summaries to support grant reporting and payer conversations. You can demonstrate both participation (Actions/Spot Checks) and qualitative progress signals.",
+          "feature": "RecoveryIQ: Patterns & Progress - User Explorer (engagement metrics)"
         }
       ],
       "problems": [
@@ -854,18 +854,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -890,18 +890,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -926,18 +926,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -962,18 +962,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -998,18 +998,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1034,18 +1034,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1070,18 +1070,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1106,18 +1106,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1139,18 +1139,18 @@
       "solutions": [
         {
           "problem": "Medication Compliance",
-          "solution": "Daily check-ins track medication adherence",
-          "feature": "RecoveryIQ Spot Check + Push Actions"
+          "solution": "If medication adherence is part of the plan, represent it as a simple daily Action (with reminders via routine) and review trends in RecoveryIQ. When adherence slips, staff can adjust supports and follow up quickly.",
+          "feature": "Actions (daily habit) - RecoveryIQ: Actions 7D"
         },
         {
           "problem": "Caseload Management",
-          "solution": "Prioritize clients with AI-generated insights",
-          "feature": "RecoveryIQ Dashboard with Kai Co-pilot"
+          "solution": "Use RecoveryIQ -> User Explorer to triage your caseload by Day Count, Last Seen, Actions 7D, Spot Check, and Alert Level. Focus outreach on high-risk/low-engagement participants first instead of working a list blindly.",
+          "feature": "RecoveryIQ: User Explorer (Actions/Spot Checks/Alert Level)"
         },
         {
           "problem": "Outcomes Tracking",
-          "solution": "AI generates detailed progress reports",
-          "feature": "RecoveryIQ Patterns & Progress AI Reports"
+          "solution": "Track outcomes continuously using participation signals (Actions/Spot Checks) and Patterns & Progress summaries. This gives your org a consistent way to measure momentum and risk-not just discharge outcomes.",
+          "feature": "RecoveryIQ: Patterns & Progress - Actions/Spot Checks"
         }
       ],
       "problems": [
@@ -1175,18 +1175,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1211,18 +1211,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1247,18 +1247,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1283,18 +1283,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1319,18 +1319,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1355,18 +1355,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1391,18 +1391,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1427,18 +1427,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1463,18 +1463,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1499,18 +1499,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1535,18 +1535,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1571,18 +1571,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1607,18 +1607,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1643,18 +1643,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1679,18 +1679,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1715,18 +1715,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1751,18 +1751,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1787,18 +1787,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1823,18 +1823,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1859,18 +1859,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -1883,7 +1883,7 @@
       "id": "southern-peaks-regional-treatment-center",
       "name": "Southern Peaks Regional Treatment Center",
       "website": "https://www.southernpeaksrtc.com",
-      "location": "Cañon City, CO",
+      "location": "Canon City, CO",
       "target": "Adolescents and Teens",
       "org_types": [
         "Residential",
@@ -1892,18 +1892,18 @@
       "solutions": [
         {
           "problem": "Cravings or urges outside of appointments",
-          "solution": "On-demand support + personalized coping plan so people can ride out cravings safely.",
-          "feature": "Kai chatbot (24/7) + Recovery Plan"
+          "solution": "When cravings hit, participants can open Kai for a guided \"what to do right now\" conversation. Clinicians can then push a specific Action plan (call sponsor, coping skill, meeting) and monitor follow-through in RecoveryIQ.",
+          "feature": "Kai - Actions: Push to App - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Relapse risk / early warning signs go unnoticed",
-          "solution": "Lightweight daily check-ins + risk signals for the care team so intervention happens earlier.",
-          "feature": "Recovery Profile + RecoveryIQ alerts"
+          "solution": "Spot risk earlier by watching engagement patterns: drops in Actions/Spot Checks, fewer Kai messages, and rising Alert Level/Patterns & Progress insights. When signals change, staff can push a targeted Action and check in immediately.",
+          "feature": "RecoveryIQ: Alert Level + Patterns & Progress - Actions - Spot Check"
         },
         {
           "problem": "Discharge / step-down transitions are fragile",
-          "solution": "Structured post-discharge plan + check-ins + connection to community supports.",
-          "feature": "Recovery Plan + Communities"
+          "solution": "Create a step-down Action plan (weekly goals + routines + recovery supports) and keep the participant connected to the right Communities. RecoveryIQ helps you spot early drop-off after discharge so you can reach out before relapse risk spikes.",
+          "feature": "Actions (weekly goal) - Communities - RecoveryIQ: Alert Level / Engagement"
         }
       ],
       "problems": [
@@ -1928,18 +1928,18 @@
       "solutions": [
         {
           "problem": "Alumni Engagement",
-          "solution": "Private alumni community stays connected",
-          "feature": "Communities (private groups with Kai)"
+          "solution": "Keep alumni connected with an alumni Community plus lightweight weekly Actions (meetings, outreach, gratitude). Alumni log Actions/Spot Checks; RecoveryIQ highlights who's drifting so your team can re-engage before they disappear.",
+          "feature": "Communities - Actions - RecoveryIQ: Patterns & Progress"
         },
         {
           "problem": "Discharge Planning",
-          "solution": "Track engagement across care levels",
-          "feature": "RecoveryIQ Patterns & Progress Reports"
+          "solution": "Turn discharge planning into an actionable checklist: staff push a small set of Actions (appointments, meetings, support contacts) and add clear notes/instructions. Track completion in RecoveryIQ and adjust the plan when adherence slips.",
+          "feature": "Actions: Suggest & Push (notes/instructions) - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Family Communication",
-          "solution": "Integrated support system",
-          "feature": "Mobile App + RecoveryIQ Dashboard"
+          "solution": "Use the participant's Action progress and engagement patterns to structure family sessions (\"what's working / what's not\"). Pair that with a familysupport Community for education and ongoing encouragement between sessions.",
+          "feature": "RecoveryIQ: Actions/Progress insights - Communities"
         }
       ],
       "problems": [
@@ -1964,18 +1964,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -2000,18 +2000,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -2036,18 +2036,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -2072,18 +2072,18 @@
       "solutions": [
         {
           "problem": "Alumni Engagement",
-          "solution": "Private alumni community stays connected",
-          "feature": "Communities (private groups with Kai)"
+          "solution": "Keep alumni connected with an alumni Community plus lightweight weekly Actions (meetings, outreach, gratitude). Alumni log Actions/Spot Checks; RecoveryIQ highlights who's drifting so your team can re-engage before they disappear.",
+          "feature": "Communities - Actions - RecoveryIQ: Patterns & Progress"
         },
         {
           "problem": "Discharge Planning",
-          "solution": "Track engagement across care levels",
-          "feature": "RecoveryIQ Patterns & Progress Reports"
+          "solution": "Turn discharge planning into an actionable checklist: staff push a small set of Actions (appointments, meetings, support contacts) and add clear notes/instructions. Track completion in RecoveryIQ and adjust the plan when adherence slips.",
+          "feature": "Actions: Suggest & Push (notes/instructions) - RecoveryIQ: User Explorer"
         },
         {
           "problem": "Family Communication",
-          "solution": "Integrated support system",
-          "feature": "Mobile App + RecoveryIQ Dashboard"
+          "solution": "Use the participant's Action progress and engagement patterns to structure family sessions (\"what's working / what's not\"). Pair that with a familysupport Community for education and ongoing encouragement between sessions.",
+          "feature": "RecoveryIQ: Actions/Progress insights - Communities"
         }
       ],
       "problems": [
@@ -2108,18 +2108,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -2144,18 +2144,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -2180,18 +2180,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -2216,18 +2216,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -2252,18 +2252,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
@@ -2288,18 +2288,18 @@
       "solutions": [
         {
           "problem": "Clients Ghost Between Sessions",
-          "solution": "Track daily engagement with color-coded alerts",
-          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
         },
         {
           "problem": "After-Hours Crisis",
-          "solution": "AI provides immediate support 24/7",
-          "feature": "Kai AI in Mobile App (text & voice chat)"
+          "solution": "When someone is struggling after hours, they can open Talk to Kai for immediate, guided support (grounding, coping steps, next-best action). In the morning, staff can review recent engagement in RecoveryIQ and follow up by pushing a specific Action (e.g., call sponsor, attend a meeting).",
+          "feature": "Kai: Talk to Kai - RecoveryIQ: User Explorer (Kai Messages/Last Seen) - Actions: Push to App"
         },
         {
           "problem": "Homework Compliance",
-          "solution": "AI reminds and guides homework completion",
-          "feature": "Push Actions to Mobile App + AI coaching"
+          "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
+          "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
         }
       ],
       "problems": [
