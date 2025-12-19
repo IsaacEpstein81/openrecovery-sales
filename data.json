@@ -26,12 +26,36 @@
           "problem": "Parent Communication",
           "solution": "For adolescent programs, keep parents aligned with the care plan by translating goals into Actions and using engagement trends to structure checkins. This makes \"how are things going?\" concrete instead of vague.",
           "feature": "Actions - RecoveryIQ: User Explorer (engagement snapshot)"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Teens Ghost Between Sessions",
         "After-Hours Crisis",
-        "Parent Communication"
+        "Parent Communication",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -59,12 +83,36 @@
           "problem": "Multi-Location Consistency",
           "solution": "Standardize delivery across sites with shared workflows: staff use the same Action library, Observations, and engagement dashboards. Roleplay with AI can also help train staff on consistent language and responses.",
           "feature": "Actions library - RecoveryIQ workflows - Roleplay with AI"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Alumni Engagement",
         "Discharge Planning",
-        "Multi-Location Consistency"
+        "Multi-Location Consistency",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -92,12 +140,36 @@
           "problem": "Outcomes Tracking",
           "solution": "Track outcomes continuously using participation signals (Actions/Spot Checks) and Patterns & Progress summaries. This gives your org a consistent way to measure momentum and risk-not just discharge outcomes.",
           "feature": "RecoveryIQ: Patterns & Progress - Actions/Spot Checks"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Medication Compliance",
         "Caseload Management",
-        "Outcomes Tracking"
+        "Outcomes Tracking",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -125,12 +197,36 @@
           "problem": "Long-Term Outcomes",
           "solution": "Sustain progress by keeping a steady rhythm of Actions + Spot Checks and using Patterns & Progress to measure what's changing over time. Your team gets a continuous view of momentum, not just episodic session notes.",
           "feature": "Spot Check - Actions - RecoveryIQ: Patterns & Progress"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Alumni Engagement",
         "Family Involvement",
-        "Long-Term Outcomes"
+        "Long-Term Outcomes",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -180,6 +276,26 @@
           "problem": "Co-occurring MH/SUD needs unmanaged",
           "solution": "Give participants structured support between sessions: Kai can help them work through tough moments, while clinicians push targeted Actions and review engagement trends to adapt treatment (SUD + MH) in real time.",
           "feature": "Kai - Actions - RecoveryIQ: User Explorer"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
@@ -189,7 +305,11 @@
         "Care coordination across team",
         "Outcomes reporting for payers / grants",
         "Referral & intake friction",
-        "Co-occurring MH/SUD needs unmanaged"
+        "Co-occurring MH/SUD needs unmanaged",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -238,6 +358,26 @@
           "problem": "Co-occurring MH/SUD needs unmanaged",
           "solution": "Give participants structured support between sessions: Kai can help them work through tough moments, while clinicians push targeted Actions and review engagement trends to adapt treatment (SUD + MH) in real time.",
           "feature": "Kai - Actions - RecoveryIQ: User Explorer"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
@@ -247,7 +387,11 @@
         "Low engagement between sessions",
         "Peer/sponsor matching is hard",
         "Care coordination across team",
-        "Co-occurring MH/SUD needs unmanaged"
+        "Co-occurring MH/SUD needs unmanaged",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -302,6 +446,26 @@
           "problem": "Co-occurring MH/SUD needs unmanaged",
           "solution": "Give participants structured support between sessions: Kai can help them work through tough moments, while clinicians push targeted Actions and review engagement trends to adapt treatment (SUD + MH) in real time.",
           "feature": "Kai - Actions - RecoveryIQ: User Explorer"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
@@ -312,7 +476,11 @@
         "Outcomes reporting for payers / grants",
         "Referral & intake friction",
         "Family involvement is inconsistent",
-        "Co-occurring MH/SUD needs unmanaged"
+        "Co-occurring MH/SUD needs unmanaged",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -362,6 +530,26 @@
           "problem": "Outcomes reporting for payers / grants",
           "solution": "Generate clearer payer/grant storylines using Patterns & Progress + engagement trends (Last Seen, Actions 7D, Spot Checks). This helps you communicate impact with both numbers and narrative.",
           "feature": "RecoveryIQ: Patterns & Progress - User Explorer"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
@@ -371,7 +559,11 @@
         "Care coordination across team",
         "Family involvement is inconsistent",
         "Co-occurring MH/SUD needs unmanaged",
-        "Outcomes reporting for payers / grants"
+        "Outcomes reporting for payers / grants",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -403,13 +595,37 @@
           "problem": "Outcomes reporting for payers / grants",
           "solution": "Generate clearer payer/grant storylines using Patterns & Progress + engagement trends (Last Seen, Actions 7D, Spot Checks). This helps you communicate impact with both numbers and narrative.",
           "feature": "RecoveryIQ: Patterns & Progress - User Explorer"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Referral & intake friction",
         "Low engagement between sessions",
         "Care coordination across team",
-        "Outcomes reporting for payers / grants"
+        "Outcomes reporting for payers / grants",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -453,6 +669,26 @@
           "problem": "Group attendance & participation issues",
           "solution": "Use Actions to turn group attendance into a simple, trackable habit (with weekly goals), then follow up when attendance drops. Communities also give people a way to participate asynchronously when they can't make a session.",
           "feature": "Actions (weekly goal) - Communities - RecoveryIQ: User Explorer"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
@@ -461,7 +697,11 @@
         "Peer/sponsor matching is hard",
         "Low engagement between sessions",
         "Family involvement is inconsistent",
-        "Group attendance & participation issues"
+        "Group attendance & participation issues",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -511,6 +751,26 @@
           "problem": "Co-occurring MH/SUD needs unmanaged",
           "solution": "Give participants structured support between sessions: Kai can help them work through tough moments, while clinicians push targeted Actions and review engagement trends to adapt treatment (SUD + MH) in real time.",
           "feature": "Kai - Actions - RecoveryIQ: User Explorer"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
@@ -520,7 +780,11 @@
         "Care coordination across team",
         "Outcomes reporting for payers / grants",
         "Referral & intake friction",
-        "Co-occurring MH/SUD needs unmanaged"
+        "Co-occurring MH/SUD needs unmanaged",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -566,6 +830,26 @@
           "problem": "Peer/sponsor matching is hard",
           "solution": "Use Communities to create clear \"lanes\" for peer support (e.g., sponsor connect, alumni, MAT, teens). Staff can recommend a community and reinforce engagement with small Actions tied to peer support.",
           "feature": "Communities - Actions"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
@@ -574,7 +858,11 @@
         "Relapse/craving moments after hours",
         "Discharge planning & aftercare gaps",
         "Outcomes reporting for payers / grants",
-        "Peer/sponsor matching is hard"
+        "Peer/sponsor matching is hard",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -619,6 +907,26 @@
           "problem": "Co-occurring MH/SUD needs unmanaged",
           "solution": "Give participants structured support between sessions: Kai can help them work through tough moments, while clinicians push targeted Actions and review engagement trends to adapt treatment (SUD + MH) in real time.",
           "feature": "Kai - Actions - RecoveryIQ: User Explorer"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
@@ -627,7 +935,11 @@
         "Low engagement between sessions",
         "Group attendance & participation issues",
         "Care coordination across team",
-        "Co-occurring MH/SUD needs unmanaged"
+        "Co-occurring MH/SUD needs unmanaged",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -662,13 +974,31 @@
           "problem": "Family needs education and support",
           "solution": "Offer an on-demand set of recovery education resources through Communities, and encourage low-friction support steps (Actions) like attending family group, learning about triggers, and practicing supportive language.",
           "feature": "Communities - Actions"
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Finding the right peer support community is hard",
         "Co-occurring anxiety/depression needs support too",
         "Stigma keeps people from asking for help",
-        "Family needs education and support"
+        "Family needs education and support",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -708,6 +1038,26 @@
           "problem": "Hard to stay accountable between sessions",
           "solution": "Clinicians create a habit list with Actions, push it to the participant's app, and set a weekly goal. RecoveryIQ shows who is following through (Actions 7D) so you can coach, adjust, and recommit in the next session.",
           "feature": "Actions: Suggest & Push - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
@@ -715,7 +1065,11 @@
         "Discharge / step-down transitions are fragile",
         "Finding the right peer support community is hard",
         "Cravings or urges outside of appointments",
-        "Hard to stay accountable between sessions"
+        "Hard to stay accountable between sessions",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -755,6 +1109,26 @@
           "problem": "Family needs education and support",
           "solution": "Offer an on-demand set of recovery education resources through Communities, and encourage low-friction support steps (Actions) like attending family group, learning about triggers, and practicing supportive language.",
           "feature": "Communities - Actions"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
@@ -762,7 +1136,11 @@
         "Hard to stay accountable between sessions",
         "Discharge / step-down transitions are fragile",
         "Treatment is expensive / hard to navigate financially",
-        "Family needs education and support"
+        "Family needs education and support",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -790,12 +1168,30 @@
           "problem": "Patients struggle to engage with care plans",
           "solution": "Make the care plan doable: convert big goals into a small set of Actions with clear instructions, and use Kai to coach through barriers day-to-day. Staff track progress in RecoveryIQ and update the plan as needed.",
           "feature": "Actions - Kai - RecoveryIQ: Actions tracking"
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Staff training and fidelity is inconsistent",
         "Need better outcomes reporting for payers/grants",
-        "Patients struggle to engage with care plans"
+        "Patients struggle to engage with care plans",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -829,13 +1225,31 @@
           "problem": "Need better outcomes reporting for payers/grants",
           "solution": "Use RecoveryIQ engagement metrics and the Patterns & Progress narrative summaries to support grant reporting and payer conversations. You can demonstrate both participation (Actions/Spot Checks) and qualitative progress signals.",
           "feature": "RecoveryIQ: Patterns & Progress - User Explorer (engagement metrics)"
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clinicians spend too much time on documentation",
         "Billing, claims, and denials slow reimbursement",
         "Compliance (HIPAA/42 CFR Part 2) is complex",
-        "Need better outcomes reporting for payers/grants"
+        "Need better outcomes reporting for payers/grants",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -866,12 +1280,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -902,12 +1340,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -938,12 +1400,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -974,12 +1460,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1010,12 +1520,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1046,12 +1580,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1082,12 +1640,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1118,12 +1700,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1151,12 +1757,36 @@
           "problem": "Outcomes Tracking",
           "solution": "Track outcomes continuously using participation signals (Actions/Spot Checks) and Patterns & Progress summaries. This gives your org a consistent way to measure momentum and risk-not just discharge outcomes.",
           "feature": "RecoveryIQ: Patterns & Progress - Actions/Spot Checks"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Medication Compliance",
         "Caseload Management",
-        "Outcomes Tracking"
+        "Outcomes Tracking",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1187,12 +1817,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1223,12 +1877,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1259,12 +1937,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1295,12 +1997,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1331,12 +2057,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1367,12 +2117,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1403,12 +2177,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1439,12 +2237,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1475,12 +2297,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1511,12 +2357,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1547,12 +2417,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1583,12 +2477,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1619,12 +2537,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1655,12 +2597,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1691,12 +2657,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1727,12 +2717,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1763,12 +2777,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1799,12 +2837,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1835,12 +2897,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1871,12 +2957,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1904,12 +3014,36 @@
           "problem": "Discharge / step-down transitions are fragile",
           "solution": "Create a step-down Action plan (weekly goals + routines + recovery supports) and keep the participant connected to the right Communities. RecoveryIQ helps you spot early drop-off after discharge so you can reach out before relapse risk spikes.",
           "feature": "Actions (weekly goal) - Communities - RecoveryIQ: Alert Level / Engagement"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Cravings or urges outside of appointments",
         "Relapse risk / early warning signs go unnoticed",
-        "Discharge / step-down transitions are fragile"
+        "Discharge / step-down transitions are fragile",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1940,12 +3074,36 @@
           "problem": "Family Communication",
           "solution": "Use the participant's Action progress and engagement patterns to structure family sessions (\"what's working / what's not\"). Pair that with a familysupport Community for education and ongoing encouragement between sessions.",
           "feature": "RecoveryIQ: Actions/Progress insights - Communities"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Alumni Engagement",
         "Discharge Planning",
-        "Family Communication"
+        "Family Communication",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -1976,12 +3134,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -2012,12 +3194,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -2048,12 +3254,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -2084,12 +3314,36 @@
           "problem": "Family Communication",
           "solution": "Use the participant's Action progress and engagement patterns to structure family sessions (\"what's working / what's not\"). Pair that with a familysupport Community for education and ongoing encouragement between sessions.",
           "feature": "RecoveryIQ: Actions/Progress insights - Communities"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Alumni Engagement",
         "Discharge Planning",
-        "Family Communication"
+        "Family Communication",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -2120,12 +3374,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -2156,12 +3434,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -2192,12 +3494,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -2228,12 +3554,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -2264,12 +3614,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     },
     {
@@ -2300,12 +3674,36 @@
           "problem": "Homework Compliance",
           "solution": "Turn \"homework\" into bite-sized Actions with clear instructions. Participants check off completion in the app, and staff review adherence trends in RecoveryIQ to reinforce progress and troubleshoot barriers.",
           "feature": "Actions (notes/instructions) - RecoveryIQ: Actions 7D"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance"
+        "Homework Compliance",
+        "Clients need 24/7 sober support between sessions",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks"
       ]
     }
   ]
