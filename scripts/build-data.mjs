@@ -73,13 +73,26 @@ companies.forEach(c => {
   };
 });
 
-// Attach solutions
+function norm(x) {
+  return (x || "").toString().trim().toLowerCase();
+}
+
 solutions.forEach(s => {
-  const cid = s["Company ID"];
-  if (!companyMap[cid]) return;
+  const cid = norm(s["Company ID"]);
+  const cname = norm(s["Company Name"]);
+
+  let company =
+    companyMap[cid] ||
+    Object.values(companyMap).find(
+      c => norm(c.name) === cname
+    );
+
+  if (!company) return;
+
   const p = problemMap[s.Problem];
-  if (p) companyMap[cid].solutions.push(p);
+  if (p) company.solutions.push(p);
 });
+
 
 const output = { companies: Object.values(companyMap) };
 
