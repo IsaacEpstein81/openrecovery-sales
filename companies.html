@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Companies - OpenRecovery Sales Intelligence</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #5FBDAD 0%, #3B9B8C 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(112, 75, 157, 0.3);
+        }
+        .header {
+            background: linear-gradient(135deg, #5FBDAD 0%, #3B9B8C 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        .header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .subtitle { font-size: 1.1rem; opacity: 0.9; }
+        .nav-bar {
+            background: #E8F5F3;
+            padding: 15px 40px;
+            border-bottom: 2px solid #7FD4C6;
+            display: flex;
+            gap: 15px;
+        }
+        .nav-link {
+            padding: 10px 20px;
+            background: white;
+            color: #5FBDAD;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .nav-link:hover { background: #7FD4C6; color: white; }
+        .nav-link.active { background: #5FBDAD; color: white; }
+        .search-section {
+            padding: 30px 40px;
+            background: #E8F5F3;
+        }
+        .search-input {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.1rem;
+            border: 2px solid #7FD4C6;
+            border-radius: 10px;
+        }
+        .search-input:focus {
+            outline: none;
+            border-color: #5FBDAD;
+            box-shadow: 0 0 0 3px rgba(112, 75, 157, 0.1);
+        }
+        .main-content { padding: 40px; min-height: 500px; }
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #5FBDAD;
+            font-size: 1.2rem;
+        }
+        .error {
+            text-align: center;
+            padding: 60px 20px;
+            color: #d9534f;
+            font-size: 1.1rem;
+        }
+        .company-card {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            transition: all 0.3s;
+        }
+        .company-card:hover {
+            border-color: #5FBDAD;
+            box-shadow: 0 5px 20px rgba(112, 75, 157, 0.1);
+        }
+        .company-name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #2C5F5D;
+            margin-bottom: 10px;
+        }
+        .type-badge {
+            background: #5FBDAD;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-right: 8px;
+            display: inline-block;
+            margin-bottom: 8px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .type-badge:hover {
+            background: #3B9B8C;
+            transform: translateY(-1px);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #5FBDAD 0%, #3B9B8C 100%);
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: all 0.3s;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(112, 75, 157, 0.3);
+        }
+        .solutions-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .solutions-table thead {
+            background: linear-gradient(135deg, #5FBDAD 0%, #3B9B8C 100%);
+            color: white;
+        }
+        .solutions-table th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 700;
+            font-size: 0.95rem;
+        }
+        .solutions-table td {
+            padding: 12px;
+            border-bottom: 1px solid #f0f0f0;
+            vertical-align: top;
+        }
+        .solutions-table tr:last-child td {
+            border-bottom: none;
+        }
+        .solutions-table tr:hover {
+            background: #E8F5F3;
+        }
+        .problem-cell {
+            color: #2C5F5D;
+            font-weight: 600;
+        }
+        .solution-cell {
+            color: #555;
+        }
+        .feature-cell {
+            color: #5FBDAD;
+            font-weight: 600;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 30px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 800px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close:hover { color: #5FBDAD; }
+        .email-preview {
+            background: #E8F5F3;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            white-space: pre-wrap;
+            border: 2px solid #7FD4C6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🎯 OpenRecovery Sales Intelligence</h1>
+            <p class="subtitle" id="companyCount">Loading companies...</p>
+        </header>
+
+        <nav class="nav-bar">
+            <a href="categories.html" class="nav-link">📂 By Category</a>
+            <a href="companies.html" class="nav-link active">📋 All Companies</a>
+        </nav>
+
+        <div class="search-section">
+            <input 
+                type="text" 
+                id="searchInput" 
+                class="search-input" 
+                placeholder="🔍 Search by company name, location, or type..."
+            >
+        </div>
+
+        <div class="main-content" id="mainContent">
+            <div class="loading">⏳ Loading companies...</div>
+        </div>
+    </div>
+
+    <div id="emailModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 style="color: #2C5F5D; margin-bottom: 20px;">📧 Generated Email</h2>
+            <div class="email-preview" id="emailContent"></div>
+            <button class="btn-primary" id="copyEmail">📋 Copy to Clipboard</button>
+        </div>
+    </div>
+
+    <script>
+        let COMPANIES = [];
+
+        // Load data from JSON file
+        async function loadData() {
+            try {
+                const response = await fetch('data.json');
+                if (!response.ok) {
+                    throw new Error(`Failed to load data: ${response.status}`);
+                }
+                const data = await response.json();
+                COMPANIES = data.companies;
+                console.log('Loaded companies:', COMPANIES);
+                return COMPANIES;
+            } catch (error) {
+                console.error('Error loading data:', error);
+                throw error;
+            }
+        }
+
+        function renderCompanies(searchTerm = '') {
+            const container = document.getElementById('mainContent');
+            const filtered = COMPANIES.filter(c => 
+                !searchTerm || 
+                c.name.toLowerCase().includes(searchTerm) ||
+                c.location.toLowerCase().includes(searchTerm) ||
+                c.org_types.some(t => t.toLowerCase().includes(searchTerm))
+            );
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<p style="text-align:center;color:#666;">No companies found</p>';
+                return;
+            }
+
+            container.innerHTML = filtered.map(company => {
+                const problems = [...new Set(company.solutions.map(s => s.problem))];
+                
+                return `
+                <div class="company-card" id="company-${company.id}">
+                    <h2 class="company-name">${company.name}</h2>
+                    <div style="margin: 10px 0;">
+                        ${company.org_types.map(t => {
+                            const catId = t.toLowerCase().replace(/[^a-z0-9]/g, '-');
+                            return `<a href="categories.html#category-${catId}" class="type-badge">${t}</a>`;
+                        }).join('')}
+                    </div>
+                    <p style="margin: 15px 0;"><strong>📍</strong> ${company.location}</p>
+                    <p style="margin: 15px 0;"><strong>👥</strong> ${company.target}</p>
+                    <p style="margin: 15px 0;"><strong>🌐</strong> <a href="${company.website}" target="_blank" style="color: #5FBDAD;">${company.website}</a></p>
+                    
+                    ${company.solutions.length > 0 ? `
+                        <table class="solutions-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 30%;">Problem</th>
+                                    <th style="width: 35%;">Solution</th>
+                                    <th style="width: 35%;">OpenRecovery Feature</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${company.solutions.map(s => `
+                                    <tr>
+                                        <td class="problem-cell">${s.problem}</td>
+                                        <td class="solution-cell">${s.solution}</td>
+                                        <td class="feature-cell">${s.feature}</td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    ` : '<p style="color: #999; font-style: italic;">No solutions configured yet</p>'}
+                    
+                    <button class="btn-primary" onclick="generateEmail('${company.id}')">Generate Email</button>
+                </div>
+            `}).join('');
+        }
+
+        function generateEmail(companyId) {
+            const company = COMPANIES.find(c => c.id === companyId);
+            if (!company || company.solutions.length === 0) {
+                alert('No solutions configured for this company yet.');
+                return;
+            }
+
+            const problems = [...new Set(company.solutions.map(s => s.problem))];
+            const email = `Subject: A solution for ${problems[0].toLowerCase()}
+
+Hi [Name],
+
+I came across ${company.name} while researching ${company.org_types.join(' and ').toLowerCase()} programs in ${company.location}.
+
+I think OpenRecovery can help with: ${problems[0].toLowerCase()}.
+
+**The Problem:**
+${problems[0]} - This leads to treatment delays, higher dropout rates, and worse outcomes.
+
+**Our Solution:**
+OpenRecovery provides:
+• ${company.solutions[0].solution}
+${company.solutions[1] ? `• ${company.solutions[1].solution}` : ''}
+• RecoveryIQ dashboard for clinicians to track engagement
+
+**The Best Part:**
+Our Community Plan is FREE. No contract, no risk.
+
+Are you open to a 15-minute call?
+
+Best,
+[Your Name]
+OpenRecovery
+
+---
+TALKING POINTS:
+
+Problems: ${problems.join(', ')}
+Start: Community Plan (FREE)
+Upgrade: Pro ($97/month)
+ROI: $4,000+ value for $97 investment`;
+
+            document.getElementById('emailContent').textContent = email;
+            document.getElementById('emailModal').style.display = 'block';
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                await loadData();
+                
+                document.getElementById('companyCount').textContent = 
+                    `${COMPANIES.length} Companies • Generate personalized emails`;
+                
+                renderCompanies();
+                
+                document.getElementById('searchInput').addEventListener('input', (e) => {
+                    renderCompanies(e.target.value.toLowerCase());
+                });
+
+                document.querySelector('.close').addEventListener('click', () => {
+                    document.getElementById('emailModal').style.display = 'none';
+                });
+
+                document.getElementById('copyEmail').addEventListener('click', () => {
+                    const text = document.getElementById('emailContent').textContent;
+                    navigator.clipboard.writeText(text).then(() => { 
+                        alert('Email copied to clipboard!'); 
+                    });
+                });
+
+                const params = new URLSearchParams(window.location.search);
+                const companyId = params.get('company');
+                if (companyId) {
+                    setTimeout(() => {
+                        const el = document.getElementById(`company-${companyId}`);
+                        if (el) {
+                            el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            el.style.border = '3px solid #5FBDAD';
+                            el.style.boxShadow = '0 10px 30px rgba(112, 75, 157, 0.3)';
+                            setTimeout(() => {
+                                el.style.border = '2px solid #e9ecef';
+                                el.style.boxShadow = 'none';
+                            }, 2000);
+                        }
+                    }, 300);
+                }
+
+            } catch (error) {
+                document.getElementById('mainContent').innerHTML = `
+                    <div class="error">
+                        <p>❌ Error loading data</p>
+                        <p style="margin-top: 10px; font-size: 0.9rem;">${error.message}</p>
+                    </div>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>
