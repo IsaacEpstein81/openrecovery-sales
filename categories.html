@@ -1,0 +1,906 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OpenRecovery by Category</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #F4FBFA 0%, #E8F5F3 100%);
+      margin: 0;
+      padding: 20px;
+      color: #2C5F5D;
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+    .header {
+      text-align: center;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+      border: 2px solid rgba(95, 189, 173, 0.2);
+    }
+    .header h1 { margin: 0; font-size: 2.3rem; color: #5FBDAD; }
+    .header p { margin: 10px 0 0; color: #666; }
+
+    .nav-bar {
+      display: flex; gap: 10px; justify-content: center;
+      margin-bottom: 20px; flex-wrap: wrap;
+    }
+    .nav-link {
+      background: white;
+      padding: 12px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #2C5F5D;
+      border: 2px solid rgba(95, 189, 173, 0.2);
+      font-weight: 700;
+      transition: all 0.2s ease;
+    }
+    .nav-link:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(95, 189, 173, 0.2); }
+    .nav-link.active { background: #5FBDAD; color: white; border-color: #5FBDAD; }
+
+    .search-section { background: white; padding: 20px; border-radius: 15px; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+    .search-input {
+      width: 100%; padding: 15px; border: 2px solid #E8F5F3;
+      border-radius: 10px; font-size: 1.1rem; outline: none;
+      transition: border-color 0.2s ease;
+    }
+    .search-input:focus { border-color: #5FBDAD; }
+
+    .main-content { display: grid; gap: 20px; }
+    .category-card {
+      background: white;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+      border: 2px solid rgba(95, 189, 173, 0.12);
+    }
+    .category-header { display:flex; justify-content:space-between; align-items:center; gap: 12px; flex-wrap: wrap; }
+    .category-name { margin: 0; font-size: 1.5rem; color: #2C5F5D; }
+    .company-count { background:#E8F5F3; border:1px solid rgba(95, 189, 173, 0.25); border-radius:999px; padding: 6px 12px; font-weight:700; font-size: 0.9rem; }
+
+    .solutions-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    }
+    .solutions-table th {
+      background: linear-gradient(135deg, #5FBDAD 0%, #3B9B8C 100%);
+      color: white;
+      padding: 12px;
+      text-align: left;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    .solutions-table td {
+      padding: 12px;
+      border-bottom: 1px solid #f0f0f0;
+      vertical-align: top;
+    }
+    .solutions-table tr:last-child td { border-bottom: none; }
+    .solutions-table tr:hover { background: #E8F5F3; }
+    .problem-cell { color: #2C5F5D; font-weight: 700; }
+    .solution-cell { color: #555; }
+    .feature-cell { color: #3B9B8C; font-weight: 700; }
+
+    .companies-list { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 8px; }
+    .company-link {
+      background: #E8F5F3;
+      color: #2C5F5D;
+      padding: 6px 10px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 0.80rem;
+      border: 1px solid rgba(95, 189, 173, 0.25);
+      font-weight: 700;
+    }
+    .company-link:hover { background: #5FBDAD; color: white; }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #5FBDAD 0%, #3B9B8C 100%);
+      color: white;
+      padding: 12px 18px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 14px;
+      margin-right: 8px;
+    }
+
+    .btn-practice {
+      background: linear-gradient(135deg, #FF6B6B 0%, #EE5A6F 100%);
+      color: white;
+      padding: 12px 18px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 14px;
+    }
+    .btn-practice:hover { filter: brightness(1.03); }
+
+    .loading { text-align:center; padding: 40px; font-size: 1.2rem; color: #666; }
+    .error { background: #fff0f0; border: 1px solid #ffb3b3; color: #a30000; padding: 16px; border-radius: 12px; }
+
+    .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); }
+    .modal-content { background-color: white; margin: 5% auto; padding: 30px; border-radius: 15px; width: 92%; max-width: 900px; max-height: 80vh; overflow-y: auto; }
+    .close { color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer; }
+    .close:hover { color: #5FBDAD; }
+    .email-preview { background: #E8F5F3; padding: 20px; border-radius: 10px; margin: 16px 0; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre-wrap; border: 2px solid #7FD4C6; }
+
+    /* Sales Practice Chat Panel */
+    .chat-panel {
+      position: fixed;
+      right: -500px;
+      top: 0;
+      width: 480px;
+      height: 100vh;
+      background: white;
+      box-shadow: -5px 0 25px rgba(0,0,0,0.15);
+      transition: right 0.3s ease;
+      z-index: 2000;
+      display: flex;
+      flex-direction: column;
+    }
+    .chat-panel.open { right: 0; }
+
+    .chat-header {
+      background: linear-gradient(135deg, #5FBDAD 0%, #3B9B8C 100%);
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .chat-header h3 { margin: 0; font-size: 1.3rem; }
+    .chat-close {
+      background: rgba(255,255,255,0.2);
+      border: none;
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+      padding: 5px 12px;
+      border-radius: 5px;
+      line-height: 1;
+    }
+    .chat-close:hover { background: rgba(255,255,255,0.3); }
+
+    .chat-info {
+      background: #F4FBFA;
+      padding: 15px 20px;
+      border-bottom: 2px solid #E8F5F3;
+    }
+    .chat-info-label { font-size: 0.85rem; color: #666; margin-bottom: 5px; }
+    .chat-info-value { font-weight: 700; color: #2C5F5D; font-size: 1rem; }
+
+    .chat-messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+      background: #FAFAFA;
+    }
+    .chat-message {
+      margin-bottom: 15px;
+      display: flex;
+      gap: 10px;
+    }
+    .chat-message.user {
+      flex-direction: row-reverse;
+    }
+    .chat-bubble {
+      max-width: 75%;
+      padding: 12px 16px;
+      border-radius: 18px;
+      line-height: 1.4;
+    }
+    .chat-message.assistant .chat-bubble {
+      background: white;
+      border: 2px solid #E8F5F3;
+      color: #2C5F5D;
+    }
+    .chat-message.user .chat-bubble {
+      background: linear-gradient(135deg, #5FBDAD 0%, #3B9B8C 100%);
+      color: white;
+    }
+    .chat-message.system .chat-bubble {
+      background: #FFF3CD;
+      border: 2px solid #FFE69C;
+      color: #856404;
+      max-width: 90%;
+      font-size: 0.9rem;
+    }
+
+    .chat-input-area {
+      border-top: 2px solid #E8F5F3;
+      padding: 15px 20px;
+      background: white;
+    }
+    .chat-input-wrapper {
+      display: flex;
+      gap: 10px;
+    }
+    .chat-input {
+      flex: 1;
+      padding: 12px 15px;
+      border: 2px solid #E8F5F3;
+      border-radius: 25px;
+      font-size: 1rem;
+      outline: none;
+      resize: none;
+      font-family: inherit;
+      max-height: 100px;
+    }
+    .chat-input:focus { border-color: #5FBDAD; }
+    .chat-send {
+      background: linear-gradient(135deg, #5FBDAD 0%, #3B9B8C 100%);
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 25px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .chat-send:hover { filter: brightness(1.05); }
+    .chat-send:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .chat-controls {
+      padding: 10px 20px;
+      background: #F4FBFA;
+      display: flex;
+      gap: 10px;
+      border-top: 1px solid #E8F5F3;
+    }
+    .chat-control-btn {
+      flex: 1;
+      padding: 8px;
+      background: white;
+      border: 2px solid #E8F5F3;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      color: #2C5F5D;
+    }
+    .chat-control-btn:hover {
+      background: #E8F5F3;
+      border-color: #5FBDAD;
+    }
+
+    .typing-indicator {
+      display: inline-flex;
+      gap: 4px;
+      padding: 12px 16px;
+    }
+    .typing-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #5FBDAD;
+      animation: typing 1.4s infinite;
+    }
+    .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+    .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes typing {
+      0%, 60%, 100% { opacity: 0.3; transform: translateY(0); }
+      30% { opacity: 1; transform: translateY(-8px); }
+    }
+
+    .settings-panel {
+      background: #F4FBFA;
+      padding: 15px 20px;
+      border-bottom: 2px solid #E8F5F3;
+    }
+    .settings-row {
+      margin-bottom: 12px;
+    }
+    .settings-row:last-child { margin-bottom: 0; }
+    .settings-label {
+      display: block;
+      font-size: 0.85rem;
+      color: #666;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+    .settings-input {
+      width: 100%;
+      padding: 8px 12px;
+      border: 2px solid #E8F5F3;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-family: monospace;
+    }
+    .settings-input:focus {
+      outline: none;
+      border-color: #5FBDAD;
+    }
+    .settings-hint {
+      font-size: 0.75rem;
+      color: #999;
+      margin-top: 3px;
+    }
+
+    @media (max-width: 768px) {
+      .chat-panel {
+        width: 100%;
+        right: -100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>🏢 Categories & Attendees</h1>
+      <p>Browse by organization type or attendee persona</p>
+    </header>
+
+    <nav class="nav-bar">
+      <a href="categories.html" class="nav-link active">📂 By Category</a>
+      <a href="companies.html" class="nav-link">📋 All Companies</a>
+    </nav>
+
+    <div class="search-section">
+      <input type="text" id="searchInput" placeholder="🔍 Search categories…" class="search-input" />
+    </div>
+
+    <main id="mainContent" class="main-content">
+      <div class="loading">⏳ Loading categories…</div>
+    </main>
+
+    <!-- Email Modal -->
+    <div id="emailModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h2 style="color:#5FBDAD;margin:0 0 10px;">📧 Generated Email</h2>
+        <div id="emailContent" class="email-preview"></div>
+        <button class="btn-primary" id="copyBtn">Copy to Clipboard</button>
+      </div>
+    </div>
+
+    <!-- Sales Practice Chat Panel -->
+    <div id="chatPanel" class="chat-panel">
+      <div class="chat-header">
+        <h3>🎭 Sales Practice</h3>
+        <button class="chat-close" id="chatClose">×</button>
+      </div>
+
+
+
+      <div class="chat-info" id="chatInfo" style="display: none;">
+        <div class="chat-info-label">Practicing with:</div>
+        <div class="chat-info-value" id="chatTarget">—</div>
+      </div>
+
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-message system">
+          <div class="chat-bubble">
+            👋 Welcome to Sales Practice! Click "Practice Sales" on any category to start a roleplay conversation.
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-controls">
+        <button class="chat-control-btn" id="resetChat">🔄 Reset</button>
+        <button class="chat-control-btn" id="showFeedback">💡 Get Feedback</button>
+      </div>
+
+      <div class="chat-input-area">
+        <div class="chat-input-wrapper">
+          <textarea 
+            id="chatInput" 
+            class="chat-input" 
+            placeholder="Type your sales pitch..."
+            rows="1"
+          ></textarea>
+          <button id="chatSend" class="chat-send">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // CHANGE THIS to your Render backend URL after deployment
+    const API_BASE_URL = "https://your-app-name.onrender.com";
+    const DATA_URL = () => `data.json?cb=${Date.now()}`;
+    
+    const ORG_TYPES = [
+      {key: "iop", name: "IOP (Intensive Outpatient)"},
+      {key: "php", name: "PHP (Partial Hospitalization)"},
+      {key: "residential", name: "Residential Treatment"},
+      {key: "detox", name: "Detox Facilities"},
+      {key: "mat", name: "MAT Programs"},
+      {key: "outpatient", name: "Outpatient Counseling"},
+      {key: "teen-adolescent", name: "Teen/Adolescent Programs"},
+      {key: "telehealth", name: "Telehealth Providers"},
+      {key: "sober-living", name: "Sober Living Homes"},
+      {key: "long-term", name: "Long-Term Care"},
+      {key: "dual-diagnosis", name: "Dual Diagnosis"}
+    ];
+
+    const PRICING_TIERS = `
+Tier 1 — Community Plan (FREE)
+- Free forever
+- Your own place to host resources (PDFs, links, photos)
+- Feed, meetings, smart tools (must be public)
+- Dashboard to invite people, see engagement, triage, measure
+- Limited role-play scenarios
+- Talk to Kai AI
+- Mobile app for increased touchpoints and off-hours support
+
+Tier 2 — Pro Plan ($97/month or $750/year)
+- Everything in Community
+- Legal privacy assurances
+- Private smart tools
+- Add other facilitators (1-2 free seats, $27/month per additional)
+- Supervisory view and Mixpanel-style engagement data
+- Ability to invite people to your version of the app
+- Put smart tool on your website (implementation costs apply)
+- Personalized app with your logo
+
+Tier 3 — Enterprise Plan ($75/seat/month, minimum $12,500/year)
+- Everything in Pro
+- Signed BAAs
+- API integration
+- Custom AI agents on your website
+- Custom AI role-play and training scenarios
+- Custom smart reporting
+- Deep app personalization with custom onboarding
+- Advanced data segmentation and legal assurances
+    `.trim();
+
+    let COMPANIES = [];
+    let CATEGORIES = {};
+    let chatHistory = [];
+    let currentCategory = null;
+    let isProcessing = false;
+
+    const $ = (id) => document.getElementById(id);
+
+    function slugify(x) {
+      return (x || "").toString().trim().toLowerCase()
+        .replace(/&/g, "and")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+    }
+
+
+    async function loadData() {
+      const res = await fetch(DATA_URL(), { cache: "no-store" });
+      if (!res.ok) throw new Error(`Failed to load data.json (${res.status})`);
+      const data = await res.json();
+      COMPANIES = Array.isArray(data.companies) ? data.companies : [];
+      buildCategories();
+    }
+
+    function buildCategories() {
+      CATEGORIES = {};
+
+      ORG_TYPES.forEach(orgType => {
+        const companies = COMPANIES.filter(c =>
+          (c.org_types || []).some(t => {
+            const s = slugify(t);
+            return s === orgType.key || s.includes(orgType.key) || slugify(orgType.name) === s;
+          })
+        );
+
+        if (!companies.length) return;
+
+        const agg = new Map();
+        companies.forEach(company => {
+          (company.solutions || []).forEach(sol => {
+            const p = (sol.problem || "").trim();
+            if (!p) return;
+            const existing = agg.get(p);
+            if (!existing) {
+              agg.set(p, { problem: p, solution: sol.solution || "", feature: sol.feature || "", count: 1 });
+            } else {
+              existing.count += 1;
+            }
+          });
+        });
+
+        const solutions = [...agg.values()]
+          .sort((a,b) => b.count - a.count)
+          .slice(0, 8);
+
+        CATEGORIES[orgType.key] = {
+          key: orgType.key,
+          name: orgType.name,
+          companies,
+          solutions
+        };
+      });
+    }
+
+    function buildCategoryEmail(category) {
+      const top = (category.solutions || []).slice(0, 4);
+      const bullets = top.map(s => `• ${s.problem} → ${s.solution} (OpenRecovery: ${s.feature})`).join("\n");
+      const sampleCompanies = (category.companies || []).slice(0, 8).map(c => `- ${c.name}`).join("\n");
+
+      return [
+        `Subject: OpenRecovery for ${category.name} — a few common pain points we solve`,
+        ``,
+        `Hi there,`,
+        ``,
+        `I'm reaching out because we work with ${category.name} programs on a few recurring challenges:`,
+        bullets || `• (Add problems/solutions/features in the sheet to populate this list)`,
+        ``,
+        `OpenRecovery pairs a member mobile app (Kai AI) with a facilitator dashboard (RecoveryIQ) so staff can support engagement between sessions, handle after-hours needs, and track progress without extra admin burden.`,
+        ``,
+        `If helpful, here are a few example organizations we're tracking in this space:`,
+        sampleCompanies || `- (No companies found)`,
+        ``,
+        `Would a short demo be useful?`,
+        ``,
+        `Best,`,
+        `Isaac`,
+      ].join("\n");
+    }
+
+    function openModal(text) {
+      $("emailContent").textContent = text;
+      $("emailModal").style.display = "block";
+    }
+    function closeModal() {
+      $("emailModal").style.display = "none";
+    }
+
+    function openChatPanel(category) {
+      currentCategory = category;
+      $("chatPanel").classList.add("open");
+      $("chatInfo").style.display = "block";
+      $("chatTarget").textContent = category.name;
+      
+      resetChat();
+    }
+
+    function closeChatPanel() {
+      $("chatPanel").classList.remove("open");
+    }
+
+    function resetChat() {
+      chatHistory = [];
+      $("chatMessages").innerHTML = '';
+      
+      if (currentCategory) {
+        addMessage('system', `🎭 You're now practicing with a ${currentCategory.name} facility. Start your pitch!`);
+        initializeAIPersona();
+      }
+    }
+
+    function addMessage(role, content) {
+      const messagesDiv = $("chatMessages");
+      const messageDiv = document.createElement('div');
+      messageDiv.className = `chat-message ${role}`;
+      
+      const bubble = document.createElement('div');
+      bubble.className = 'chat-bubble';
+      bubble.textContent = content;
+      
+      messageDiv.appendChild(bubble);
+      messagesDiv.appendChild(messageDiv);
+      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    }
+
+    function addTypingIndicator() {
+      const messagesDiv = $("chatMessages");
+      const messageDiv = document.createElement('div');
+      messageDiv.className = 'chat-message assistant';
+      messageDiv.id = 'typing-indicator';
+      
+      const bubble = document.createElement('div');
+      bubble.className = 'chat-bubble typing-indicator';
+      bubble.innerHTML = '<div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>';
+      
+      messageDiv.appendChild(bubble);
+      messagesDiv.appendChild(messageDiv);
+      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    }
+
+    function removeTypingIndicator() {
+      const indicator = document.getElementById('typing-indicator');
+      if (indicator) indicator.remove();
+    }
+
+    function buildSystemPrompt(category) {
+      const problems = (category.solutions || []).slice(0, 5).map(s => `- ${s.problem}`).join('\n');
+      const sampleCompany = category.companies[0];
+      
+      return `You are roleplaying as a decision-maker at a ${category.name} facility.
+
+FACILITY CONTEXT:
+- Organization type: ${category.name}
+- Sample similar facility: ${sampleCompany?.name || 'N/A'} (serving ${sampleCompany?.target || 'clients'})
+- Common challenges in this category:
+${problems || '- General operational challenges'}
+
+YOUR ROLE:
+You are busy, skeptical, but genuinely care about outcomes. You've seen many vendors. You want practical solutions, not buzzwords. You're a facility director or program manager.
+
+CONVERSATION STYLE:
+- Be realistic and professional
+- Ask tough questions about ROI, implementation, staff buy-in
+- Raise objections naturally (cost, time, change management, "we already have something")
+- If they address your concerns well, warm up gradually
+- Reference challenges specific to ${category.name} facilities when relevant
+- Don't be easily convinced - make them work for it
+- If they make a compelling case, eventually express interest in learning more
+
+IMPORTANT CONTEXT - OpenRecovery offers 3 tiers:
+${PRICING_TIERS}
+
+The salesperson should guide you toward the tier that fits your needs. React authentically to their pitch.
+
+Keep responses concise (2-4 sentences typically). Be human, not robotic.`;
+    }
+
+    async function callBackendAPI(userMessage) {
+      const response = await fetch(`${API_BASE_URL}/api/chat`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          messages: [
+            ...chatHistory,
+            { role: 'user', content: userMessage }
+          ],
+          systemPrompt: buildSystemPrompt(currentCategory),
+          temperature: 0.8,
+          maxTokens: 300
+        })
+      });
+
+      if (!response.ok) {
+        const error = await response.json();
+        throw new Error(error.error || 'API request failed');
+      }
+
+      const data = await response.json();
+      return data.reply;
+    }
+
+    async function initializeAIPersona() {
+      try {
+        addTypingIndicator();
+        const greeting = await callBackendAPI("Hello, I'd like to introduce you to OpenRecovery.");
+        removeTypingIndicator();
+        
+        addMessage('assistant', greeting);
+        chatHistory.push(
+          { role: 'user', content: "Hello, I'd like to introduce you to OpenRecovery." },
+          { role: 'assistant', content: greeting }
+        );
+      } catch (err) {
+        removeTypingIndicator();
+        addMessage('system', `❌ Error: ${err.message}`);
+      }
+    }
+
+    async function sendMessage() {
+      const input = $("chatInput");
+      const message = input.value.trim();
+      
+      if (!message || isProcessing) return;
+
+      if (!currentCategory) {
+        addMessage('system', '❌ Please select a category first');
+        return;
+      }
+
+      addMessage('user', message);
+      input.value = '';
+      input.style.height = 'auto';
+      
+      isProcessing = true;
+      $("chatSend").disabled = true;
+
+      try {
+        addTypingIndicator();
+        const response = await callBackendAPI(message);
+        removeTypingIndicator();
+        
+        addMessage('assistant', response);
+        
+        chatHistory.push(
+          { role: 'user', content: message },
+          { role: 'assistant', content: response }
+        );
+      } catch (err) {
+        removeTypingIndicator();
+        addMessage('system', `❌ Error: ${err.message}`);
+      } finally {
+        isProcessing = false;
+        $("chatSend").disabled = false;
+        input.focus();
+      }
+    }
+
+    async function getFeedback() {
+      if (chatHistory.length < 2) {
+        addMessage('system', '💡 Have a conversation first, then I can give you feedback!');
+        return;
+      }
+
+      isProcessing = true;
+      $("showFeedback").disabled = true;
+
+      try {
+        addTypingIndicator();
+        
+        const response = await fetch(`${API_BASE_URL}/api/feedback`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            conversation: chatHistory
+          })
+        });
+
+        if (!response.ok) {
+          const error = await response.json();
+          throw new Error(error.error || 'Failed to get feedback');
+        }
+
+        const data = await response.json();
+        
+        removeTypingIndicator();
+        addMessage('system', `📊 FEEDBACK:\n\n${data.reply}`);
+      } catch (err) {
+        removeTypingIndicator();
+        addMessage('system', `❌ Error getting feedback: ${err.message}`);
+      } finally {
+        isProcessing = false;
+        $("showFeedback").disabled = false;
+      }
+    }
+
+    function escapeHtml(str) {
+      return String(str || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+    function escapeAttr(str) { return escapeHtml(str).replaceAll("`", "&#096;"); }
+
+    function renderAll(searchTerm = "") {
+      const term = (searchTerm || "").trim().toLowerCase();
+      const container = $("mainContent");
+
+      const categories = Object.values(CATEGORIES)
+        .filter(cat => !term || cat.name.toLowerCase().includes(term) || cat.key.includes(term))
+        .sort((a,b) => (b.companies?.length || 0) - (a.companies?.length || 0));
+
+      if (!categories.length) {
+        container.innerHTML = `<div class="category-card"><p style="margin:0;color:#666;">No categories found.</p></div>`;
+        return;
+      }
+
+      container.innerHTML = categories.map(cat => {
+        const rows = (cat.solutions || []).map(s => `
+          <tr>
+            <td class="problem-cell">${escapeHtml(s.problem)}</td>
+            <td class="solution-cell">${escapeHtml(s.solution)}</td>
+            <td class="feature-cell">${escapeHtml(s.feature)}</td>
+          </tr>
+        `).join("");
+
+        const table = (cat.solutions || []).length ? `
+          <table class="solutions-table">
+            <thead>
+              <tr>
+                <th style="width:30%;">Problem</th>
+                <th style="width:35%;">Solution</th>
+                <th style="width:35%;">OpenRecovery Feature</th>
+              </tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        ` : `<p style="color:#999;font-style:italic;margin:14px 0 0;">No problems/solutions yet for this category.</p>`;
+
+        const companies = (cat.companies || []).map(c =>
+          `<a class="company-link" href="companies.html?company=${escapeAttr(c.id || "")}">${escapeHtml(c.name || "")}</a>`
+        ).join("");
+
+        const anchorId = `category-${cat.key}`;
+
+        return `
+          <section class="category-card" id="${anchorId}">
+            <div class="category-header">
+              <h2 class="category-name">${escapeHtml(cat.name)}</h2>
+              <span class="company-count">${cat.companies.length} Companies</span>
+            </div>
+
+            ${table}
+
+            <div class="companies-list">
+              ${companies}
+            </div>
+
+            <button class="btn-primary" data-action="email" data-category="${escapeAttr(cat.key)}">Generate Email</button>
+            <button class="btn-practice" data-action="practice" data-category="${escapeAttr(cat.key)}">🎭 Practice Sales</button>
+          </section>
+        `;
+      }).join("");
+
+      // Wire up email buttons
+      container.querySelectorAll('[data-action="email"]').forEach(btn => {
+        btn.addEventListener("click", () => {
+          const key = btn.getAttribute("data-category");
+          const cat = CATEGORIES[key];
+          if (!cat) return;
+          openModal(buildCategoryEmail(cat));
+        });
+      });
+
+      // Wire up practice buttons
+      container.querySelectorAll('[data-action="practice"]').forEach(btn => {
+        btn.addEventListener("click", () => {
+          const key = btn.getAttribute("data-category");
+          const cat = CATEGORIES[key];
+          if (!cat) return;
+          openChatPanel(cat);
+        });
+      });
+    }
+
+    (async function init() {
+      try {
+        await loadData();
+        renderAll("");
+
+        $("searchInput").addEventListener("input", (e) => renderAll(e.target.value));
+
+        // Email modal
+        $("closeModal").addEventListener("click", closeModal);
+        window.addEventListener("click", (e) => { if (e.target === $("emailModal")) closeModal(); });
+        $("copyBtn").addEventListener("click", async () => {
+          const text = $("emailContent").textContent || "";
+          await navigator.clipboard.writeText(text);
+          $("copyBtn").textContent = "Copied!";
+          setTimeout(() => ($("copyBtn").textContent = "Copy to Clipboard"), 900);
+        });
+
+        // Chat panel
+        $("chatClose").addEventListener("click", closeChatPanel);
+        $("resetChat").addEventListener("click", resetChat);
+        $("showFeedback").addEventListener("click", getFeedback);
+        
+        $("chatSend").addEventListener("click", sendMessage);
+        $("chatInput").addEventListener("keypress", (e) => {
+          if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            sendMessage();
+          }
+        });
+
+        // Auto-resize textarea
+        $("chatInput").addEventListener("input", function() {
+          this.style.height = 'auto';
+          this.style.height = Math.min(this.scrollHeight, 100) + 'px';
+        });
+
+      } catch (err) {
+        console.error(err);
+        $("mainContent").innerHTML = `<div class="error"><strong>Error:</strong> ${escapeHtml(err.message || String(err))}</div>`;
+      }
+    })();
+  </script>
+</body>
+</html>
