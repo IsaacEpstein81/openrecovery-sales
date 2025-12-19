@@ -422,8 +422,8 @@
       ]
     },
     {
-      "id": "photo-disclaimer",
-      "name": "Photo Disclaimer",
+      "id": "momenta-recovery",
+      "name": "Momenta Recovery",
       "website": "https://www.momentarecovery.com",
       "location": "Colorado",
       "target": "Opioid Use Disorder",
@@ -491,8 +491,8 @@
       ]
     },
     {
-      "id": "our-facility",
-      "name": "Our Facility",
+      "id": "mountain-springs",
+      "name": "Mountain Springs",
       "website": "https://www.mountainspringsrecovery.com",
       "location": "Delaware",
       "target": "Opioid Use Disorder",
@@ -563,8 +563,8 @@
       ]
     },
     {
-      "id": "about-muir-wood-teen-treatment",
-      "name": "About Muir Wood Teen Treatment",
+      "id": "muir-wood-teen-treatment",
+      "name": "Muir Wood Teen Treatment",
       "website": "https://www.muirwoodteen.com",
       "location": "California",
       "target": "Adolescents and Teens",
@@ -599,17 +599,17 @@
       ]
     },
     {
-      "id": "home",
-      "name": "Home",
-      "website": "https://www.thresholds.org",
-      "location": "Illinois",
+      "id": "north-point-recovery",
+      "name": "North Point Recovery",
+      "website": "https://www.northpointrecovery.com",
+      "location": "Maine",
       "target": "Adolescents and Teens",
       "org_types": [
+        "IOP",
         "Residential",
+        "Detox",
         "MAT",
-        "Teen/Adolescent",
-        "Sober Living",
-        "Dual Diagnosis"
+        "Outpatient"
       ],
       "solutions": [
         {
@@ -626,30 +626,48 @@
           "problem": "Homework Compliance",
           "solution": "AI reminds and guides homework completion",
           "feature": "Push Actions to Mobile App + AI coaching"
-        },
-        {
-          "problem": "Alumni Engagement",
-          "solution": "Private alumni community stays connected",
-          "feature": "Communities (private groups with Kai)"
-        },
-        {
-          "problem": "Discharge Planning",
-          "solution": "Track engagement across care levels",
-          "feature": "RecoveryIQ Patterns & Progress Reports"
-        },
-        {
-          "problem": "Family Communication",
-          "solution": "Integrated support system",
-          "feature": "Mobile App + RecoveryIQ Dashboard"
         }
       ],
       "problems": [
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
-        "Homework Compliance",
-        "Alumni Engagement",
-        "Discharge Planning",
-        "Family Communication"
+        "Homework Compliance"
+      ]
+    },
+    {
+      "id": "nrt-behavioral-health",
+      "name": "NRT Behavioral Health",
+      "website": "https://www.nrtbh.com",
+      "location": "Colorado",
+      "target": "Opioid Use Disorder",
+      "org_types": [
+        "IOP",
+        "PHP",
+        "Residential",
+        "Detox",
+        "MAT"
+      ],
+      "solutions": [
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Track daily engagement with color-coded alerts",
+          "feature": "RecoveryIQ Alert Levels (Red/Yellow/Green flags)"
+        },
+        {
+          "problem": "After-Hours Crisis",
+          "solution": "AI provides immediate support 24/7",
+          "feature": "Kai AI in Mobile App (text & voice chat)"
+        },
+        {
+          "problem": "Homework Compliance",
+          "solution": "AI reminds and guides homework completion",
+          "feature": "Push Actions to Mobile App + AI coaching"
+        }
+      ],
+      "problems": [
+        "Clients Ghost Between Sessions",
+        "After-Hours Crisis",
+        "Homework Compliance"
       ]
     },
     {
@@ -689,8 +707,8 @@
       ]
     },
     {
-      "id": "foster-care-and-adoption",
-      "name": "Foster Care and Adoption",
+      "id": "pacific-clinics",
+      "name": "Pacific Clinics",
       "website": "https://www.pacificclinics.org",
       "location": "California",
       "target": "Adolescents and Teens",
@@ -1157,8 +1175,8 @@
       ]
     },
     {
-      "id": "steadman-group-about",
-      "name": "Steadman Group: About",
+      "id": "steadman-group",
+      "name": "Steadman Group",
       "website": "https://www.steadmangroup.com",
       "location": "Colorado",
       "target": "Adolescents and Teens",
@@ -1298,6 +1316,42 @@
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
         "Homework Compliance"
+      ]
+    },
+    {
+      "id": "threshholds",
+      "name": "Thresholds",
+      "website": "https://www.thresholds.org",
+      "location": "Illinois",
+      "target": "Adolescents and Teens",
+      "org_types": [
+        "Residential",
+        "MAT",
+        "Teen/Adolescent",
+        "Sober Living",
+        "Dual Diagnosis"
+      ],
+      "solutions": [
+        {
+          "problem": "Alumni Engagement",
+          "solution": "Private alumni community stays connected",
+          "feature": "Communities (private groups with Kai)"
+        },
+        {
+          "problem": "Discharge Planning",
+          "solution": "Track engagement across care levels",
+          "feature": "RecoveryIQ Patterns & Progress Reports"
+        },
+        {
+          "problem": "Family Communication",
+          "solution": "Integrated support system",
+          "feature": "Mobile App + RecoveryIQ Dashboard"
+        }
+      ],
+      "problems": [
+        "Alumni Engagement",
+        "Discharge Planning",
+        "Family Communication"
       ]
     },
     {
