@@ -648,7 +648,7 @@ Keep responses concise (2-4 sentences typically). Be human, not robotic.`;
     }
 
     async function callBackendAPI(userMessage) {
-      const response = await fetch(`${API_BASE_URL}/api/chat`, {
+      const response = await fetch(`${API_BASE_URL}/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -741,7 +741,7 @@ Keep responses concise (2-4 sentences typically). Be human, not robotic.`;
       try {
         addTypingIndicator();
         
-        const response = await fetch(`${API_BASE_URL}/api/feedback`, {
+        const response = await fetch(`${API_BASE_URL}/feedback`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
