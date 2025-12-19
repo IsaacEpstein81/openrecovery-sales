@@ -1,0 +1,36 @@
+name: Update data.json from Google Sheets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"   # every hour
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build data.json
+        env:
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+        run: |
+          node scripts/build-data.mjs
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Auto-update data.json from Google Sheets"
+          git push
