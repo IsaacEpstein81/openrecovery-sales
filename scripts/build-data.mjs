@@ -57,11 +57,16 @@ problems.forEach(p => {
 
 // Build companies
 const companyMap = {};
+
 companies.forEach(c => {
-  if (!c["Company ID"] || !c["Company Name"]) return;
-  companyMap[c["Company ID"]] = {
-    id: c["Company ID"],
-    name: c["Company Name"],
+  const name = c["Company Name"];
+  if (!name) return;
+
+  const key = norm(name);
+
+  companyMap[key] = {
+    id: c["Company ID"] || key.replace(/\s+/g, "-"),
+    name: name,
     website: c.Website,
     location: c.Location,
     target: c.Target,
@@ -73,25 +78,25 @@ companies.forEach(c => {
   };
 });
 
+
 function norm(x) {
   return (x || "").toString().trim().toLowerCase();
 }
 
 solutions.forEach(s => {
-  const cid = norm(s["Company ID"]);
   const cname = norm(s["Company Name"]);
+  if (!cname) return;
 
-  let company =
-    companyMap[cid] ||
-    Object.values(companyMap).find(
-      c => norm(c.name) === cname
-    );
-
-  if (!company) return;
+  const company = companyMap[cname];
+  if (!company) {
+    console.warn("⚠️ No matching company for solution:", s["Company Name"]);
+    return;
+  }
 
   const p = problemMap[s.Problem];
   if (p) company.solutions.push(p);
 });
+
 
 
 const output = { companies: Object.values(companyMap) };
