@@ -134,6 +134,711 @@
       ]
     },
     {
+      "id": "burrell-behavioral-health",
+      "name": "Burrell Behavioral Health",
+      "website": "https://www.burrellcenter.com",
+      "location": "Missouri",
+      "target": "Mental health + substance use",
+      "org_types": [
+        "Community MH",
+        "Outpatient",
+        "Residential",
+        "Crisis"
+      ],
+      "solutions": [
+        {
+          "problem": "Low engagement between sessions",
+          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
+          "feature": "Kai daily check-ins + personalized coping plans"
+        },
+        {
+          "problem": "High dropout / early disengagement",
+          "solution": "Detect disengagement early and trigger outreach workflows to re-engage before clients drop.",
+          "feature": "RecoveryIQ risk flags + outreach tasks"
+        },
+        {
+          "problem": "Staff documentation burden",
+          "solution": "Reduce repetitive documentation with structured notes, summaries, and reusable templates.",
+          "feature": "RecoveryIQ session notes + templates"
+        },
+        {
+          "problem": "Care coordination across team",
+          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
+          "feature": "Recovery Profile + shared dashboard"
+        },
+        {
+          "problem": "Outcomes reporting for payers / grants",
+          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
+          "feature": "RecoveryIQ analytics + exports"
+        },
+        {
+          "problem": "Referral & intake friction",
+          "solution": "Streamline intake questions and route clients to the right level of care faster.",
+          "feature": "Guided intake + routing rules"
+        },
+        {
+          "problem": "Co-occurring MH/SUD needs unmanaged",
+          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
+          "feature": "Kai + condition-specific resources"
+        }
+      ],
+      "problems": [
+        "Low engagement between sessions",
+        "High dropout / early disengagement",
+        "Staff documentation burden",
+        "Care coordination across team",
+        "Outcomes reporting for payers / grants",
+        "Referral & intake friction",
+        "Co-occurring MH/SUD needs unmanaged"
+      ]
+    },
+    {
+      "id": "cedar-uchealth",
+      "name": "CeDAR (UCHealth)",
+      "website": "https://cedarcolorado.org",
+      "location": "Aurora, CO",
+      "target": "Addiction treatment",
+      "org_types": [
+        "Residential",
+        "Detox",
+        "Outpatient"
+      ],
+      "solutions": [
+        {
+          "problem": "Discharge planning & aftercare gaps",
+          "solution": "Provide a structured aftercare plan with community support, meetings, and ongoing check-ins post-discharge.",
+          "feature": "Aftercare plan + Communities + meeting links"
+        },
+        {
+          "problem": "Relapse/craving moments after hours",
+          "solution": "Offer immediate, judgment-free support and step-by-step coping guidance when cravings hit.",
+          "feature": "Kai crisis/craving playbooks"
+        },
+        {
+          "problem": "Outcomes reporting for payers / grants",
+          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
+          "feature": "RecoveryIQ analytics + exports"
+        },
+        {
+          "problem": "Low engagement between sessions",
+          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
+          "feature": "Kai daily check-ins + personalized coping plans"
+        },
+        {
+          "problem": "Peer/sponsor matching is hard",
+          "solution": "Help clients find accountable support and match by needs/availability.",
+          "feature": "Sponsor Connect + buddy call lists"
+        },
+        {
+          "problem": "Care coordination across team",
+          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
+          "feature": "Recovery Profile + shared dashboard"
+        },
+        {
+          "problem": "Co-occurring MH/SUD needs unmanaged",
+          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
+          "feature": "Kai + condition-specific resources"
+        }
+      ],
+      "problems": [
+        "Discharge planning & aftercare gaps",
+        "Relapse/craving moments after hours",
+        "Outcomes reporting for payers / grants",
+        "Low engagement between sessions",
+        "Peer/sponsor matching is hard",
+        "Care coordination across team",
+        "Co-occurring MH/SUD needs unmanaged"
+      ]
+    },
+    {
+      "id": "centerstone",
+      "name": "Centerstone",
+      "website": "https://centerstone.org",
+      "location": "Multiple states (US)",
+      "target": "Mental health + addiction",
+      "org_types": [
+        "Community MH",
+        "Outpatient",
+        "Residential",
+        "Telehealth"
+      ],
+      "solutions": [
+        {
+          "problem": "Low engagement between sessions",
+          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
+          "feature": "Kai daily check-ins + personalized coping plans"
+        },
+        {
+          "problem": "High dropout / early disengagement",
+          "solution": "Detect disengagement early and trigger outreach workflows to re-engage before clients drop.",
+          "feature": "RecoveryIQ risk flags + outreach tasks"
+        },
+        {
+          "problem": "Staff documentation burden",
+          "solution": "Reduce repetitive documentation with structured notes, summaries, and reusable templates.",
+          "feature": "RecoveryIQ session notes + templates"
+        },
+        {
+          "problem": "Care coordination across team",
+          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
+          "feature": "Recovery Profile + shared dashboard"
+        },
+        {
+          "problem": "Outcomes reporting for payers / grants",
+          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
+          "feature": "RecoveryIQ analytics + exports"
+        },
+        {
+          "problem": "Referral & intake friction",
+          "solution": "Streamline intake questions and route clients to the right level of care faster.",
+          "feature": "Guided intake + routing rules"
+        },
+        {
+          "problem": "Family involvement is inconsistent",
+          "solution": "Give families safe ways to support recovery with guidance and shared plans.",
+          "feature": "Family support resources + shared plans"
+        },
+        {
+          "problem": "Co-occurring MH/SUD needs unmanaged",
+          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
+          "feature": "Kai + condition-specific resources"
+        }
+      ],
+      "problems": [
+        "Low engagement between sessions",
+        "High dropout / early disengagement",
+        "Staff documentation burden",
+        "Care coordination across team",
+        "Outcomes reporting for payers / grants",
+        "Referral & intake friction",
+        "Family involvement is inconsistent",
+        "Co-occurring MH/SUD needs unmanaged"
+      ]
+    },
+    {
+      "id": "charlie-health",
+      "name": "Charlie Health",
+      "website": "https://www.charliehealth.com",
+      "location": "Virtual (multi-state)",
+      "target": "Mental health + substance use + eating disorders",
+      "org_types": [
+        "Telehealth",
+        "IOP",
+        "PHP",
+        "Outpatient"
+      ],
+      "solutions": [
+        {
+          "problem": "Low engagement between sessions",
+          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
+          "feature": "Kai daily check-ins + personalized coping plans"
+        },
+        {
+          "problem": "High dropout / early disengagement",
+          "solution": "Detect disengagement early and trigger outreach workflows to re-engage before clients drop.",
+          "feature": "RecoveryIQ risk flags + outreach tasks"
+        },
+        {
+          "problem": "Group attendance & participation issues",
+          "solution": "Improve group readiness, reminders, and follow-through to boost attendance.",
+          "feature": "Smart reminders + group prep prompts"
+        },
+        {
+          "problem": "Care coordination across team",
+          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
+          "feature": "Recovery Profile + shared dashboard"
+        },
+        {
+          "problem": "Family involvement is inconsistent",
+          "solution": "Give families safe ways to support recovery with guidance and shared plans.",
+          "feature": "Family support resources + shared plans"
+        },
+        {
+          "problem": "Co-occurring MH/SUD needs unmanaged",
+          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
+          "feature": "Kai + condition-specific resources"
+        },
+        {
+          "problem": "Outcomes reporting for payers / grants",
+          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
+          "feature": "RecoveryIQ analytics + exports"
+        }
+      ],
+      "problems": [
+        "Low engagement between sessions",
+        "High dropout / early disengagement",
+        "Group attendance & participation issues",
+        "Care coordination across team",
+        "Family involvement is inconsistent",
+        "Co-occurring MH/SUD needs unmanaged",
+        "Outcomes reporting for payers / grants"
+      ]
+    },
+    {
+      "id": "chroma-wellness-center",
+      "name": "Chroma Wellness Center",
+      "website": "https://www.chromawellnesscenter.com",
+      "location": "Denver, CO",
+      "target": "Behavioral health",
+      "org_types": [
+        "Outpatient"
+      ],
+      "solutions": [
+        {
+          "problem": "Referral & intake friction",
+          "solution": "Streamline intake questions and route clients to the right level of care faster.",
+          "feature": "Guided intake + routing rules"
+        },
+        {
+          "problem": "Low engagement between sessions",
+          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
+          "feature": "Kai daily check-ins + personalized coping plans"
+        },
+        {
+          "problem": "Care coordination across team",
+          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
+          "feature": "Recovery Profile + shared dashboard"
+        },
+        {
+          "problem": "Outcomes reporting for payers / grants",
+          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
+          "feature": "RecoveryIQ analytics + exports"
+        }
+      ],
+      "problems": [
+        "Referral & intake friction",
+        "Low engagement between sessions",
+        "Care coordination across team",
+        "Outcomes reporting for payers / grants"
+      ]
+    },
+    {
+      "id": "cirque-lodge",
+      "name": "Cirque Lodge",
+      "website": "https://www.cirquelodge.com",
+      "location": "Utah",
+      "target": "Substance use (residential)",
+      "org_types": [
+        "Residential",
+        "Detox",
+        "Outpatient"
+      ],
+      "solutions": [
+        {
+          "problem": "Discharge planning & aftercare gaps",
+          "solution": "Provide a structured aftercare plan with community support, meetings, and ongoing check-ins post-discharge.",
+          "feature": "Aftercare plan + Communities + meeting links"
+        },
+        {
+          "problem": "Relapse/craving moments after hours",
+          "solution": "Offer immediate, judgment-free support and step-by-step coping guidance when cravings hit.",
+          "feature": "Kai crisis/craving playbooks"
+        },
+        {
+          "problem": "Peer/sponsor matching is hard",
+          "solution": "Help clients find accountable support and match by needs/availability.",
+          "feature": "Sponsor Connect + buddy call lists"
+        },
+        {
+          "problem": "Low engagement between sessions",
+          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
+          "feature": "Kai daily check-ins + personalized coping plans"
+        },
+        {
+          "problem": "Family involvement is inconsistent",
+          "solution": "Give families safe ways to support recovery with guidance and shared plans.",
+          "feature": "Family support resources + shared plans"
+        },
+        {
+          "problem": "Group attendance & participation issues",
+          "solution": "Improve group readiness, reminders, and follow-through to boost attendance.",
+          "feature": "Smart reminders + group prep prompts"
+        }
+      ],
+      "problems": [
+        "Discharge planning & aftercare gaps",
+        "Relapse/craving moments after hours",
+        "Peer/sponsor matching is hard",
+        "Low engagement between sessions",
+        "Family involvement is inconsistent",
+        "Group attendance & participation issues"
+      ]
+    },
+    {
+      "id": "compass-health-network",
+      "name": "Compass Health Network",
+      "website": "https://compasshealthnetwork.org",
+      "location": "Missouri",
+      "target": "Mental health + substance use",
+      "org_types": [
+        "Community MH",
+        "Outpatient",
+        "Residential",
+        "Crisis"
+      ],
+      "solutions": [
+        {
+          "problem": "Low engagement between sessions",
+          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
+          "feature": "Kai daily check-ins + personalized coping plans"
+        },
+        {
+          "problem": "High dropout / early disengagement",
+          "solution": "Detect disengagement early and trigger outreach workflows to re-engage before clients drop.",
+          "feature": "RecoveryIQ risk flags + outreach tasks"
+        },
+        {
+          "problem": "Staff documentation burden",
+          "solution": "Reduce repetitive documentation with structured notes, summaries, and reusable templates.",
+          "feature": "RecoveryIQ session notes + templates"
+        },
+        {
+          "problem": "Care coordination across team",
+          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
+          "feature": "Recovery Profile + shared dashboard"
+        },
+        {
+          "problem": "Outcomes reporting for payers / grants",
+          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
+          "feature": "RecoveryIQ analytics + exports"
+        },
+        {
+          "problem": "Referral & intake friction",
+          "solution": "Streamline intake questions and route clients to the right level of care faster.",
+          "feature": "Guided intake + routing rules"
+        },
+        {
+          "problem": "Co-occurring MH/SUD needs unmanaged",
+          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
+          "feature": "Kai + condition-specific resources"
+        }
+      ],
+      "problems": [
+        "Low engagement between sessions",
+        "High dropout / early disengagement",
+        "Staff documentation burden",
+        "Care coordination across team",
+        "Outcomes reporting for payers / grants",
+        "Referral & intake friction",
+        "Co-occurring MH/SUD needs unmanaged"
+      ]
+    },
+    {
+      "id": "crossroads-turning-points",
+      "name": "Crossroads Turning Points",
+      "website": "https://www.crossroadstp.org",
+      "location": "Colorado (Southern)",
+      "target": "Substance use (prevention + treatment)",
+      "org_types": [
+        "Outpatient",
+        "Residential",
+        "Detox",
+        "MAT",
+        "Prevention"
+      ],
+      "solutions": [
+        {
+          "problem": "Referral & intake friction",
+          "solution": "Streamline intake questions and route clients to the right level of care faster.",
+          "feature": "Guided intake + routing rules"
+        },
+        {
+          "problem": "Low engagement between sessions",
+          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
+          "feature": "Kai daily check-ins + personalized coping plans"
+        },
+        {
+          "problem": "Relapse/craving moments after hours",
+          "solution": "Offer immediate, judgment-free support and step-by-step coping guidance when cravings hit.",
+          "feature": "Kai crisis/craving playbooks"
+        },
+        {
+          "problem": "Discharge planning & aftercare gaps",
+          "solution": "Provide a structured aftercare plan with community support, meetings, and ongoing check-ins post-discharge.",
+          "feature": "Aftercare plan + Communities + meeting links"
+        },
+        {
+          "problem": "Outcomes reporting for payers / grants",
+          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
+          "feature": "RecoveryIQ analytics + exports"
+        },
+        {
+          "problem": "Peer/sponsor matching is hard",
+          "solution": "Help clients find accountable support and match by needs/availability.",
+          "feature": "Sponsor Connect + buddy call lists"
+        }
+      ],
+      "problems": [
+        "Referral & intake friction",
+        "Low engagement between sessions",
+        "Relapse/craving moments after hours",
+        "Discharge planning & aftercare gaps",
+        "Outcomes reporting for payers / grants",
+        "Peer/sponsor matching is hard"
+      ]
+    },
+    {
+      "id": "denver-springs",
+      "name": "Denver Springs",
+      "website": "https://denversprings.com",
+      "location": "Denver Metro, CO",
+      "target": "Mental health + addiction",
+      "org_types": [
+        "Residential",
+        "Outpatient",
+        "IOP",
+        "PHP"
+      ],
+      "solutions": [
+        {
+          "problem": "Discharge planning & aftercare gaps",
+          "solution": "Provide a structured aftercare plan with community support, meetings, and ongoing check-ins post-discharge.",
+          "feature": "Aftercare plan + Communities + meeting links"
+        },
+        {
+          "problem": "Relapse/craving moments after hours",
+          "solution": "Offer immediate, judgment-free support and step-by-step coping guidance when cravings hit.",
+          "feature": "Kai crisis/craving playbooks"
+        },
+        {
+          "problem": "Low engagement between sessions",
+          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
+          "feature": "Kai daily check-ins + personalized coping plans"
+        },
+        {
+          "problem": "Group attendance & participation issues",
+          "solution": "Improve group readiness, reminders, and follow-through to boost attendance.",
+          "feature": "Smart reminders + group prep prompts"
+        },
+        {
+          "problem": "Care coordination across team",
+          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
+          "feature": "Recovery Profile + shared dashboard"
+        },
+        {
+          "problem": "Co-occurring MH/SUD needs unmanaged",
+          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
+          "feature": "Kai + condition-specific resources"
+        }
+      ],
+      "problems": [
+        "Discharge planning & aftercare gaps",
+        "Relapse/craving moments after hours",
+        "Low engagement between sessions",
+        "Group attendance & participation issues",
+        "Care coordination across team",
+        "Co-occurring MH/SUD needs unmanaged"
+      ]
+    },
+    {
+      "id": "depression-and-bipolar-support-alliance",
+      "name": "Depression and Bipolar Support Alliance",
+      "website": "https://www.dbsalliance.org",
+      "location": "Multiple locations",
+      "target": "People with depression/bipolar + families",
+      "org_types": [
+        "Support Groups",
+        "Peer Support",
+        "Education",
+        "Advocacy"
+      ],
+      "solutions": [
+        {
+          "problem": "Finding the right peer support community is hard",
+          "solution": "Match people into supportive groups and conversations that feel safe and relevant.",
+          "feature": "Communities + Buddy Calls"
+        },
+        {
+          "problem": "Co-occurring anxiety/depression needs support too",
+          "solution": "Tools and check-ins that support mental health alongside recovery and escalate when needed.",
+          "feature": "Kai + RecoveryIQ"
+        },
+        {
+          "problem": "Stigma keeps people from asking for help",
+          "solution": "Private, low-friction support entry point and anonymous community options.",
+          "feature": "Kai + Communities"
+        },
+        {
+          "problem": "Family needs education and support",
+          "solution": "Shareable resources + guided ways for family to support without enabling.",
+          "feature": "Resource Library + Share links"
+        }
+      ],
+      "problems": [
+        "Finding the right peer support community is hard",
+        "Co-occurring anxiety/depression needs support too",
+        "Stigma keeps people from asking for help",
+        "Family needs education and support"
+      ]
+    },
+    {
+      "id": "divided-sky-foundation",
+      "name": "Divided Sky Foundation",
+      "website": "https://dividedsky.org",
+      "location": "Ludlow, VT",
+      "target": "Adults in early sobriety / post-detox",
+      "org_types": [
+        "Residential",
+        "12-Step",
+        "Holistic",
+        "Scholarships"
+      ],
+      "solutions": [
+        {
+          "problem": "Treatment is expensive / hard to navigate financially",
+          "solution": "Clear options + scholarship/coverage guidance + step-by-step planning.",
+          "feature": "Kai + Resource Library"
+        },
+        {
+          "problem": "Discharge / step-down transitions are fragile",
+          "solution": "Structured post-discharge plan + check-ins + connection to community supports.",
+          "feature": "Recovery Plan + Communities"
+        },
+        {
+          "problem": "Finding the right peer support community is hard",
+          "solution": "Match people into supportive groups and conversations that feel safe and relevant.",
+          "feature": "Communities + Buddy Calls"
+        },
+        {
+          "problem": "Cravings or urges outside of appointments",
+          "solution": "On-demand support + personalized coping plan so people can ride out cravings safely.",
+          "feature": "Kai chatbot (24/7) + Recovery Plan"
+        },
+        {
+          "problem": "Hard to stay accountable between sessions",
+          "solution": "Daily goals, streaks, and gentle nudges that make recovery habits stick.",
+          "feature": "Recovery Plan + Notifications"
+        }
+      ],
+      "problems": [
+        "Treatment is expensive / hard to navigate financially",
+        "Discharge / step-down transitions are fragile",
+        "Finding the right peer support community is hard",
+        "Cravings or urges outside of appointments",
+        "Hard to stay accountable between sessions"
+      ]
+    },
+    {
+      "id": "dogstar-revolution-recovery",
+      "name": "DogStar Revolution Recovery",
+      "website": "https://www.dogstarrecovery.com",
+      "location": "Denver, CO",
+      "target": "People in recovery + re-entry",
+      "org_types": [
+        "Peer Support",
+        "Sober Living",
+        "Re-entry",
+        "Holistic"
+      ],
+      "solutions": [
+        {
+          "problem": "Finding the right peer support community is hard",
+          "solution": "Match people into supportive groups and conversations that feel safe and relevant.",
+          "feature": "Communities + Buddy Calls"
+        },
+        {
+          "problem": "Hard to stay accountable between sessions",
+          "solution": "Daily goals, streaks, and gentle nudges that make recovery habits stick.",
+          "feature": "Recovery Plan + Notifications"
+        },
+        {
+          "problem": "Discharge / step-down transitions are fragile",
+          "solution": "Structured post-discharge plan + check-ins + connection to community supports.",
+          "feature": "Recovery Plan + Communities"
+        },
+        {
+          "problem": "Treatment is expensive / hard to navigate financially",
+          "solution": "Clear options + scholarship/coverage guidance + step-by-step planning.",
+          "feature": "Kai + Resource Library"
+        },
+        {
+          "problem": "Family needs education and support",
+          "solution": "Shareable resources + guided ways for family to support without enabling.",
+          "feature": "Resource Library + Share links"
+        }
+      ],
+      "problems": [
+        "Finding the right peer support community is hard",
+        "Hard to stay accountable between sessions",
+        "Discharge / step-down transitions are fragile",
+        "Treatment is expensive / hard to navigate financially",
+        "Family needs education and support"
+      ]
+    },
+    {
+      "id": "elevate-healthcare",
+      "name": "Elevate Healthcare",
+      "website": "https://elevatehealth.net",
+      "location": "Multiple locations",
+      "target": "Healthcare educators & simulation programs",
+      "org_types": [
+        "Training/Simulation Vendor",
+        "Healthcare Education"
+      ],
+      "solutions": [
+        {
+          "problem": "Staff training and fidelity is inconsistent",
+          "solution": "Just-in-time coaching + scenario practice + skill refreshers.",
+          "feature": "Kai coaching mode + Training library"
+        },
+        {
+          "problem": "Need better outcomes reporting for payers/grants",
+          "solution": "Standardized metrics + dashboards + exportable reports.",
+          "feature": "RecoveryIQ analytics"
+        },
+        {
+          "problem": "Patients struggle to engage with care plans",
+          "solution": "Personalized content and goal-setting tied to what matters to them.",
+          "feature": "Recovery Profile + Kai"
+        }
+      ],
+      "problems": [
+        "Staff training and fidelity is inconsistent",
+        "Need better outcomes reporting for payers/grants",
+        "Patients struggle to engage with care plans"
+      ]
+    },
+    {
+      "id": "emr-bear",
+      "name": "EMR Bear",
+      "website": "https://www.emrbear.com",
+      "location": "Multiple locations",
+      "target": "Behavioral health providers",
+      "org_types": [
+        "EHR/RCM Vendor",
+        "Billing Services",
+        "Behavioral Health Software"
+      ],
+      "solutions": [
+        {
+          "problem": "Clinicians spend too much time on documentation",
+          "solution": "Capture structured notes and automate summaries to reduce admin burden.",
+          "feature": "RecoveryIQ dashboard"
+        },
+        {
+          "problem": "Billing, claims, and denials slow reimbursement",
+          "solution": "Workflow prompts + reporting + data quality checks to reduce denials.",
+          "feature": "RecoveryIQ reporting"
+        },
+        {
+          "problem": "Compliance (HIPAA/42 CFR Part 2) is complex",
+          "solution": "Role-based access + secure workflows + audit-friendly documentation patterns.",
+          "feature": "RecoveryIQ + Security controls"
+        },
+        {
+          "problem": "Need better outcomes reporting for payers/grants",
+          "solution": "Standardized metrics + dashboards + exportable reports.",
+          "feature": "RecoveryIQ analytics"
+        }
+      ],
+      "problems": [
+        "Clinicians spend too much time on documentation",
+        "Billing, claims, and denials slow reimbursement",
+        "Compliance (HIPAA/42 CFR Part 2) is complex",
+        "Need better outcomes reporting for payers/grants"
+      ]
+    },
+    {
       "id": "family-care-center",
       "name": "Family Care Center",
       "website": "https://fccwellbeing.com",
@@ -1175,6 +1880,39 @@
       ]
     },
     {
+      "id": "southern-peaks-regional-treatment-center",
+      "name": "Southern Peaks Regional Treatment Center",
+      "website": "https://www.southernpeaksrtc.com",
+      "location": "Cañon City, CO",
+      "target": "Adolescents and Teens",
+      "org_types": [
+        "Residential",
+        "SUD Treatment"
+      ],
+      "solutions": [
+        {
+          "problem": "Cravings or urges outside of appointments",
+          "solution": "On-demand support + personalized coping plan so people can ride out cravings safely.",
+          "feature": "Kai chatbot (24/7) + Recovery Plan"
+        },
+        {
+          "problem": "Relapse risk / early warning signs go unnoticed",
+          "solution": "Lightweight daily check-ins + risk signals for the care team so intervention happens earlier.",
+          "feature": "Recovery Profile + RecoveryIQ alerts"
+        },
+        {
+          "problem": "Discharge / step-down transitions are fragile",
+          "solution": "Structured post-discharge plan + check-ins + connection to community supports.",
+          "feature": "Recovery Plan + Communities"
+        }
+      ],
+      "problems": [
+        "Cravings or urges outside of appointments",
+        "Relapse risk / early warning signs go unnoticed",
+        "Discharge / step-down transitions are fragile"
+      ]
+    },
+    {
       "id": "steadman-group",
       "name": "Steadman Group",
       "website": "https://www.steadmangroup.com",
@@ -1568,744 +2306,6 @@
         "Clients Ghost Between Sessions",
         "After-Hours Crisis",
         "Homework Compliance"
-      ]
-    },
-    {
-      "id": "burrell-behavioral-health",
-      "name": "Burrell Behavioral Health",
-      "website": "https://www.burrellcenter.com",
-      "location": "Missouri",
-      "target": "Mental health + substance use",
-      "org_types": [
-        "Community MH",
-        "Outpatient",
-        "Residential",
-        "Crisis"
-      ],
-      "solutions": [
-        {
-          "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
-        },
-        {
-          "problem": "High dropout / early disengagement",
-          "solution": "Detect disengagement early and trigger outreach workflows to re-engage before clients drop.",
-          "feature": "RecoveryIQ risk flags + outreach tasks"
-        },
-        {
-          "problem": "Staff documentation burden",
-          "solution": "Reduce repetitive documentation with structured notes, summaries, and reusable templates.",
-          "feature": "RecoveryIQ session notes + templates"
-        },
-        {
-          "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
-        },
-        {
-          "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
-        },
-        {
-          "problem": "Referral & intake friction",
-          "solution": "Streamline intake questions and route clients to the right level of care faster.",
-          "feature": "Guided intake + routing rules"
-        },
-        {
-          "problem": "Co-occurring MH/SUD needs unmanaged",
-          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
-          "feature": "Kai + condition-specific resources"
-        }
-      ],
-      "problems": [
-        "Low engagement between sessions",
-        "High dropout / early disengagement",
-        "Staff documentation burden",
-        "Care coordination across team",
-        "Outcomes reporting for payers / grants",
-        "Referral & intake friction",
-        "Co-occurring MH/SUD needs unmanaged"
-      ]
-    },
-    {
-      "id": "cedar-uchealth",
-      "name": "CeDAR (UCHealth)",
-      "website": "https://cedarcolorado.org",
-      "location": "Aurora, CO",
-      "target": "Addiction treatment",
-      "org_types": [
-        "Residential",
-        "Detox",
-        "Outpatient"
-      ],
-      "solutions": [
-        {
-          "problem": "Discharge planning & aftercare gaps",
-          "solution": "Provide a structured aftercare plan with community support, meetings, and ongoing check-ins post-discharge.",
-          "feature": "Aftercare plan + Communities + meeting links"
-        },
-        {
-          "problem": "Relapse/craving moments after hours",
-          "solution": "Offer immediate, judgment-free support and step-by-step coping guidance when cravings hit.",
-          "feature": "Kai crisis/craving playbooks"
-        },
-        {
-          "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
-        },
-        {
-          "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
-        },
-        {
-          "problem": "Peer/sponsor matching is hard",
-          "solution": "Help clients find accountable support and match by needs/availability.",
-          "feature": "Sponsor Connect + buddy call lists"
-        },
-        {
-          "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
-        },
-        {
-          "problem": "Co-occurring MH/SUD needs unmanaged",
-          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
-          "feature": "Kai + condition-specific resources"
-        }
-      ],
-      "problems": [
-        "Discharge planning & aftercare gaps",
-        "Relapse/craving moments after hours",
-        "Outcomes reporting for payers / grants",
-        "Low engagement between sessions",
-        "Peer/sponsor matching is hard",
-        "Care coordination across team",
-        "Co-occurring MH/SUD needs unmanaged"
-      ]
-    },
-    {
-      "id": "centerstone",
-      "name": "Centerstone",
-      "website": "https://centerstone.org",
-      "location": "Multiple states (US)",
-      "target": "Mental health + addiction",
-      "org_types": [
-        "Community MH",
-        "Outpatient",
-        "Residential",
-        "Telehealth"
-      ],
-      "solutions": [
-        {
-          "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
-        },
-        {
-          "problem": "High dropout / early disengagement",
-          "solution": "Detect disengagement early and trigger outreach workflows to re-engage before clients drop.",
-          "feature": "RecoveryIQ risk flags + outreach tasks"
-        },
-        {
-          "problem": "Staff documentation burden",
-          "solution": "Reduce repetitive documentation with structured notes, summaries, and reusable templates.",
-          "feature": "RecoveryIQ session notes + templates"
-        },
-        {
-          "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
-        },
-        {
-          "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
-        },
-        {
-          "problem": "Referral & intake friction",
-          "solution": "Streamline intake questions and route clients to the right level of care faster.",
-          "feature": "Guided intake + routing rules"
-        },
-        {
-          "problem": "Family involvement is inconsistent",
-          "solution": "Give families safe ways to support recovery with guidance and shared plans.",
-          "feature": "Family support resources + shared plans"
-        },
-        {
-          "problem": "Co-occurring MH/SUD needs unmanaged",
-          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
-          "feature": "Kai + condition-specific resources"
-        }
-      ],
-      "problems": [
-        "Low engagement between sessions",
-        "High dropout / early disengagement",
-        "Staff documentation burden",
-        "Care coordination across team",
-        "Outcomes reporting for payers / grants",
-        "Referral & intake friction",
-        "Family involvement is inconsistent",
-        "Co-occurring MH/SUD needs unmanaged"
-      ]
-    },
-    {
-      "id": "charlie-health",
-      "name": "Charlie Health",
-      "website": "https://www.charliehealth.com",
-      "location": "Virtual (multi-state)",
-      "target": "Mental health + substance use + eating disorders",
-      "org_types": [
-        "Telehealth",
-        "IOP",
-        "PHP",
-        "Outpatient"
-      ],
-      "solutions": [
-        {
-          "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
-        },
-        {
-          "problem": "High dropout / early disengagement",
-          "solution": "Detect disengagement early and trigger outreach workflows to re-engage before clients drop.",
-          "feature": "RecoveryIQ risk flags + outreach tasks"
-        },
-        {
-          "problem": "Group attendance & participation issues",
-          "solution": "Improve group readiness, reminders, and follow-through to boost attendance.",
-          "feature": "Smart reminders + group prep prompts"
-        },
-        {
-          "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
-        },
-        {
-          "problem": "Family involvement is inconsistent",
-          "solution": "Give families safe ways to support recovery with guidance and shared plans.",
-          "feature": "Family support resources + shared plans"
-        },
-        {
-          "problem": "Co-occurring MH/SUD needs unmanaged",
-          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
-          "feature": "Kai + condition-specific resources"
-        },
-        {
-          "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
-        }
-      ],
-      "problems": [
-        "Low engagement between sessions",
-        "High dropout / early disengagement",
-        "Group attendance & participation issues",
-        "Care coordination across team",
-        "Family involvement is inconsistent",
-        "Co-occurring MH/SUD needs unmanaged",
-        "Outcomes reporting for payers / grants"
-      ]
-    },
-    {
-      "id": "chroma-wellness-center",
-      "name": "Chroma Wellness Center",
-      "website": "https://www.chromawellnesscenter.com",
-      "location": "Denver, CO",
-      "target": "Behavioral health",
-      "org_types": [
-        "Outpatient"
-      ],
-      "solutions": [
-        {
-          "problem": "Referral & intake friction",
-          "solution": "Streamline intake questions and route clients to the right level of care faster.",
-          "feature": "Guided intake + routing rules"
-        },
-        {
-          "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
-        },
-        {
-          "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
-        },
-        {
-          "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
-        }
-      ],
-      "problems": [
-        "Referral & intake friction",
-        "Low engagement between sessions",
-        "Care coordination across team",
-        "Outcomes reporting for payers / grants"
-      ]
-    },
-    {
-      "id": "cirque-lodge",
-      "name": "Cirque Lodge",
-      "website": "https://www.cirquelodge.com",
-      "location": "Utah",
-      "target": "Substance use (residential)",
-      "org_types": [
-        "Residential",
-        "Detox",
-        "Outpatient"
-      ],
-      "solutions": [
-        {
-          "problem": "Discharge planning & aftercare gaps",
-          "solution": "Provide a structured aftercare plan with community support, meetings, and ongoing check-ins post-discharge.",
-          "feature": "Aftercare plan + Communities + meeting links"
-        },
-        {
-          "problem": "Relapse/craving moments after hours",
-          "solution": "Offer immediate, judgment-free support and step-by-step coping guidance when cravings hit.",
-          "feature": "Kai crisis/craving playbooks"
-        },
-        {
-          "problem": "Peer/sponsor matching is hard",
-          "solution": "Help clients find accountable support and match by needs/availability.",
-          "feature": "Sponsor Connect + buddy call lists"
-        },
-        {
-          "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
-        },
-        {
-          "problem": "Family involvement is inconsistent",
-          "solution": "Give families safe ways to support recovery with guidance and shared plans.",
-          "feature": "Family support resources + shared plans"
-        },
-        {
-          "problem": "Group attendance & participation issues",
-          "solution": "Improve group readiness, reminders, and follow-through to boost attendance.",
-          "feature": "Smart reminders + group prep prompts"
-        }
-      ],
-      "problems": [
-        "Discharge planning & aftercare gaps",
-        "Relapse/craving moments after hours",
-        "Peer/sponsor matching is hard",
-        "Low engagement between sessions",
-        "Family involvement is inconsistent",
-        "Group attendance & participation issues"
-      ]
-    },
-    {
-      "id": "compass-health-network",
-      "name": "Compass Health Network",
-      "website": "https://compasshealthnetwork.org",
-      "location": "Missouri",
-      "target": "Mental health + substance use",
-      "org_types": [
-        "Community MH",
-        "Outpatient",
-        "Residential",
-        "Crisis"
-      ],
-      "solutions": [
-        {
-          "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
-        },
-        {
-          "problem": "High dropout / early disengagement",
-          "solution": "Detect disengagement early and trigger outreach workflows to re-engage before clients drop.",
-          "feature": "RecoveryIQ risk flags + outreach tasks"
-        },
-        {
-          "problem": "Staff documentation burden",
-          "solution": "Reduce repetitive documentation with structured notes, summaries, and reusable templates.",
-          "feature": "RecoveryIQ session notes + templates"
-        },
-        {
-          "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
-        },
-        {
-          "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
-        },
-        {
-          "problem": "Referral & intake friction",
-          "solution": "Streamline intake questions and route clients to the right level of care faster.",
-          "feature": "Guided intake + routing rules"
-        },
-        {
-          "problem": "Co-occurring MH/SUD needs unmanaged",
-          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
-          "feature": "Kai + condition-specific resources"
-        }
-      ],
-      "problems": [
-        "Low engagement between sessions",
-        "High dropout / early disengagement",
-        "Staff documentation burden",
-        "Care coordination across team",
-        "Outcomes reporting for payers / grants",
-        "Referral & intake friction",
-        "Co-occurring MH/SUD needs unmanaged"
-      ]
-    },
-    {
-      "id": "crossroads-turning-points",
-      "name": "Crossroads Turning Points",
-      "website": "https://www.crossroadstp.org",
-      "location": "Colorado (Southern)",
-      "target": "Substance use (prevention + treatment)",
-      "org_types": [
-        "Outpatient",
-        "Residential",
-        "Detox",
-        "MAT",
-        "Prevention"
-      ],
-      "solutions": [
-        {
-          "problem": "Referral & intake friction",
-          "solution": "Streamline intake questions and route clients to the right level of care faster.",
-          "feature": "Guided intake + routing rules"
-        },
-        {
-          "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
-        },
-        {
-          "problem": "Relapse/craving moments after hours",
-          "solution": "Offer immediate, judgment-free support and step-by-step coping guidance when cravings hit.",
-          "feature": "Kai crisis/craving playbooks"
-        },
-        {
-          "problem": "Discharge planning & aftercare gaps",
-          "solution": "Provide a structured aftercare plan with community support, meetings, and ongoing check-ins post-discharge.",
-          "feature": "Aftercare plan + Communities + meeting links"
-        },
-        {
-          "problem": "Outcomes reporting for payers / grants",
-          "solution": "Track engagement, self-reports, and milestones for outcomes reporting and program improvement.",
-          "feature": "RecoveryIQ analytics + exports"
-        },
-        {
-          "problem": "Peer/sponsor matching is hard",
-          "solution": "Help clients find accountable support and match by needs/availability.",
-          "feature": "Sponsor Connect + buddy call lists"
-        }
-      ],
-      "problems": [
-        "Referral & intake friction",
-        "Low engagement between sessions",
-        "Relapse/craving moments after hours",
-        "Discharge planning & aftercare gaps",
-        "Outcomes reporting for payers / grants",
-        "Peer/sponsor matching is hard"
-      ]
-    },
-    {
-      "id": "denver-springs",
-      "name": "Denver Springs",
-      "website": "https://denversprings.com",
-      "location": "Denver Metro, CO",
-      "target": "Mental health + addiction",
-      "org_types": [
-        "Residential",
-        "Outpatient",
-        "IOP",
-        "PHP"
-      ],
-      "solutions": [
-        {
-          "problem": "Discharge planning & aftercare gaps",
-          "solution": "Provide a structured aftercare plan with community support, meetings, and ongoing check-ins post-discharge.",
-          "feature": "Aftercare plan + Communities + meeting links"
-        },
-        {
-          "problem": "Relapse/craving moments after hours",
-          "solution": "Offer immediate, judgment-free support and step-by-step coping guidance when cravings hit.",
-          "feature": "Kai crisis/craving playbooks"
-        },
-        {
-          "problem": "Low engagement between sessions",
-          "solution": "Keep clients supported daily with brief check-ins, tailored coping tools, and accountability nudges.",
-          "feature": "Kai daily check-ins + personalized coping plans"
-        },
-        {
-          "problem": "Group attendance & participation issues",
-          "solution": "Improve group readiness, reminders, and follow-through to boost attendance.",
-          "feature": "Smart reminders + group prep prompts"
-        },
-        {
-          "problem": "Care coordination across team",
-          "solution": "Centralize client context so clinicians, case managers, and peers stay aligned.",
-          "feature": "Recovery Profile + shared dashboard"
-        },
-        {
-          "problem": "Co-occurring MH/SUD needs unmanaged",
-          "solution": "Support co-occurring conditions with integrated tools and tailored content.",
-          "feature": "Kai + condition-specific resources"
-        }
-      ],
-      "problems": [
-        "Discharge planning & aftercare gaps",
-        "Relapse/craving moments after hours",
-        "Low engagement between sessions",
-        "Group attendance & participation issues",
-        "Care coordination across team",
-        "Co-occurring MH/SUD needs unmanaged"
-      ]
-    },
-    {
-      "id": "depression-and-bipolar-support-alliance",
-      "name": "Depression and Bipolar Support Alliance",
-      "website": "https://www.dbsalliance.org",
-      "location": "Multiple locations",
-      "target": "People with depression/bipolar + families",
-      "org_types": [
-        "Support Groups",
-        "Peer Support",
-        "Education",
-        "Advocacy"
-      ],
-      "solutions": [
-        {
-          "problem": "Finding the right peer support community is hard",
-          "solution": "Match people into supportive groups and conversations that feel safe and relevant.",
-          "feature": "Communities + Buddy Calls"
-        },
-        {
-          "problem": "Co-occurring anxiety/depression needs support too",
-          "solution": "Tools and check-ins that support mental health alongside recovery and escalate when needed.",
-          "feature": "Kai + RecoveryIQ"
-        },
-        {
-          "problem": "Stigma keeps people from asking for help",
-          "solution": "Private, low-friction support entry point and anonymous community options.",
-          "feature": "Kai + Communities"
-        },
-        {
-          "problem": "Family needs education and support",
-          "solution": "Shareable resources + guided ways for family to support without enabling.",
-          "feature": "Resource Library + Share links"
-        }
-      ],
-      "problems": [
-        "Finding the right peer support community is hard",
-        "Co-occurring anxiety/depression needs support too",
-        "Stigma keeps people from asking for help",
-        "Family needs education and support"
-      ]
-    },
-    {
-      "id": "divided-sky-foundation",
-      "name": "Divided Sky Foundation",
-      "website": "https://dividedsky.org",
-      "location": "Ludlow, VT",
-      "target": "Adults in early sobriety / post-detox",
-      "org_types": [
-        "Residential",
-        "12-Step",
-        "Holistic",
-        "Scholarships"
-      ],
-      "solutions": [
-        {
-          "problem": "Treatment is expensive / hard to navigate financially",
-          "solution": "Clear options + scholarship/coverage guidance + step-by-step planning.",
-          "feature": "Kai + Resource Library"
-        },
-        {
-          "problem": "Discharge / step-down transitions are fragile",
-          "solution": "Structured post-discharge plan + check-ins + connection to community supports.",
-          "feature": "Recovery Plan + Communities"
-        },
-        {
-          "problem": "Finding the right peer support community is hard",
-          "solution": "Match people into supportive groups and conversations that feel safe and relevant.",
-          "feature": "Communities + Buddy Calls"
-        },
-        {
-          "problem": "Cravings or urges outside of appointments",
-          "solution": "On-demand support + personalized coping plan so people can ride out cravings safely.",
-          "feature": "Kai chatbot (24/7) + Recovery Plan"
-        },
-        {
-          "problem": "Hard to stay accountable between sessions",
-          "solution": "Daily goals, streaks, and gentle nudges that make recovery habits stick.",
-          "feature": "Recovery Plan + Notifications"
-        }
-      ],
-      "problems": [
-        "Treatment is expensive / hard to navigate financially",
-        "Discharge / step-down transitions are fragile",
-        "Finding the right peer support community is hard",
-        "Cravings or urges outside of appointments",
-        "Hard to stay accountable between sessions"
-      ]
-    },
-    {
-      "id": "dogstar-revolution-recovery",
-      "name": "DogStar Revolution Recovery",
-      "website": "https://www.dogstarrecovery.com",
-      "location": "Denver, CO",
-      "target": "People in recovery + re-entry",
-      "org_types": [
-        "Peer Support",
-        "Sober Living",
-        "Re-entry",
-        "Holistic"
-      ],
-      "solutions": [
-        {
-          "problem": "Finding the right peer support community is hard",
-          "solution": "Match people into supportive groups and conversations that feel safe and relevant.",
-          "feature": "Communities + Buddy Calls"
-        },
-        {
-          "problem": "Hard to stay accountable between sessions",
-          "solution": "Daily goals, streaks, and gentle nudges that make recovery habits stick.",
-          "feature": "Recovery Plan + Notifications"
-        },
-        {
-          "problem": "Discharge / step-down transitions are fragile",
-          "solution": "Structured post-discharge plan + check-ins + connection to community supports.",
-          "feature": "Recovery Plan + Communities"
-        },
-        {
-          "problem": "Treatment is expensive / hard to navigate financially",
-          "solution": "Clear options + scholarship/coverage guidance + step-by-step planning.",
-          "feature": "Kai + Resource Library"
-        },
-        {
-          "problem": "Family needs education and support",
-          "solution": "Shareable resources + guided ways for family to support without enabling.",
-          "feature": "Resource Library + Share links"
-        }
-      ],
-      "problems": [
-        "Finding the right peer support community is hard",
-        "Hard to stay accountable between sessions",
-        "Discharge / step-down transitions are fragile",
-        "Treatment is expensive / hard to navigate financially",
-        "Family needs education and support"
-      ]
-    },
-    {
-      "id": "emr-bear",
-      "name": "EMR Bear",
-      "website": "https://www.emrbear.com",
-      "location": "Multiple locations",
-      "target": "Behavioral health providers",
-      "org_types": [
-        "EHR/RCM Vendor",
-        "Billing Services",
-        "Behavioral Health Software"
-      ],
-      "solutions": [
-        {
-          "problem": "Clinicians spend too much time on documentation",
-          "solution": "Capture structured notes and automate summaries to reduce admin burden.",
-          "feature": "RecoveryIQ dashboard"
-        },
-        {
-          "problem": "Billing, claims, and denials slow reimbursement",
-          "solution": "Workflow prompts + reporting + data quality checks to reduce denials.",
-          "feature": "RecoveryIQ reporting"
-        },
-        {
-          "problem": "Compliance (HIPAA/42 CFR Part 2) is complex",
-          "solution": "Role-based access + secure workflows + audit-friendly documentation patterns.",
-          "feature": "RecoveryIQ + Security controls"
-        },
-        {
-          "problem": "Need better outcomes reporting for payers/grants",
-          "solution": "Standardized metrics + dashboards + exportable reports.",
-          "feature": "RecoveryIQ analytics"
-        }
-      ],
-      "problems": [
-        "Clinicians spend too much time on documentation",
-        "Billing, claims, and denials slow reimbursement",
-        "Compliance (HIPAA/42 CFR Part 2) is complex",
-        "Need better outcomes reporting for payers/grants"
-      ]
-    },
-    {
-      "id": "elevate-healthcare",
-      "name": "Elevate Healthcare",
-      "website": "https://elevatehealth.net",
-      "location": "Multiple locations",
-      "target": "Healthcare educators & simulation programs",
-      "org_types": [
-        "Training/Simulation Vendor",
-        "Healthcare Education"
-      ],
-      "solutions": [
-        {
-          "problem": "Staff training and fidelity is inconsistent",
-          "solution": "Just-in-time coaching + scenario practice + skill refreshers.",
-          "feature": "Kai coaching mode + Training library"
-        },
-        {
-          "problem": "Need better outcomes reporting for payers/grants",
-          "solution": "Standardized metrics + dashboards + exportable reports.",
-          "feature": "RecoveryIQ analytics"
-        },
-        {
-          "problem": "Patients struggle to engage with care plans",
-          "solution": "Personalized content and goal-setting tied to what matters to them.",
-          "feature": "Recovery Profile + Kai"
-        }
-      ],
-      "problems": [
-        "Staff training and fidelity is inconsistent",
-        "Need better outcomes reporting for payers/grants",
-        "Patients struggle to engage with care plans"
-      ]
-    },
-    {
-      "id": "southern-peaks-regional-treatment-center",
-      "name": "Southern Peaks Regional Treatment Center",
-      "website": "https://www.southernpeaksrtc.com",
-      "location": "Cañon City, CO",
-      "target": "Adolescents and Teens",
-      "org_types": [
-        "Residential",
-        "SUD Treatment"
-      ],
-      "solutions": [
-        {
-          "problem": "Cravings or urges outside of appointments",
-          "solution": "On-demand support + personalized coping plan so people can ride out cravings safely.",
-          "feature": "Kai chatbot (24/7) + Recovery Plan"
-        },
-        {
-          "problem": "Relapse risk / early warning signs go unnoticed",
-          "solution": "Lightweight daily check-ins + risk signals for the care team so intervention happens earlier.",
-          "feature": "Recovery Profile + RecoveryIQ alerts"
-        },
-        {
-          "problem": "Discharge / step-down transitions are fragile",
-          "solution": "Structured post-discharge plan + check-ins + connection to community supports.",
-          "feature": "Recovery Plan + Communities"
-        }
-      ],
-      "problems": [
-        "Cravings or urges outside of appointments",
-        "Relapse risk / early warning signs go unnoticed",
-        "Discharge / step-down transitions are fragile"
       ]
     }
   ]
