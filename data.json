@@ -347,6 +347,21 @@
       "solutions": []
     },
     {
+      "id": "red-rock",
+      "name": "Red Rock",
+      "website": "https://www.red-rock.com",
+      "location": "Oklahoma",
+      "target": "Adolescents and Teens",
+      "org_types": [
+        "IOP",
+        "Residential",
+        "MAT",
+        "Outpatient",
+        "Teen/Adolescent"
+      ],
+      "solutions": []
+    },
+    {
       "id": "redpoint-center",
       "name": "Redpoint Center",
       "website": "https://www.theredpointcenter.com/",
