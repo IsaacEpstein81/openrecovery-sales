@@ -3422,6 +3422,96 @@
       ]
     },
     {
+      "id": "unity-recovery",
+      "name": "Unity Recovery",
+      "website": "https://unityrecovery.org/",
+      "location": "Philadelphia, PA (virtual)",
+      "target": "Adults, Substance Use, Harm Reduction, Peer Support",
+      "org_types": [
+        "Peer Support",
+        "Support Groups",
+        "Harm Reduction",
+        "Education",
+        "Telehealth"
+      ],
+      "solutions": [
+        {
+          "problem": "Stigma keeps people from asking for help",
+          "solution": "Lower the barrier to reaching out with a private, judgment-free first step (Talk to Kai). From there, participants can join Communities and start small Actions to build momentum without feeling \"on display.\"",
+          "feature": "Kai: Talk to Kai - Communities - Actions"
+        },
+        {
+          "problem": "Peer/sponsor matching is hard",
+          "solution": "Use Communities to create clear \"lanes\" for peer support (e.g., sponsor connect, alumni, MAT, teens). Staff can recommend a community and reinforce engagement with small Actions tied to peer support.",
+          "feature": "Communities - Actions"
+        },
+        {
+          "problem": "Clients need 24/7 sober support between sessions",
+          "solution": "Offer always-available support that complements clinical care. Clients can chat any time for motivation, coping skills, cravings support, and next-step planning. Staff can also direct clients to specific resources and prompts.",
+          "feature": "Community Smart Tool (chatbot inside Communities) and Plug-in (chatbot embedded on the organization's website). The chatbot can act as an AI sober coach or an information bot tailored to the program."
+        },
+        {
+          "problem": "Cravings or urges outside of appointments",
+          "solution": "When cravings hit, participants can open Kai for a guided \"what to do right now\" conversation. Clinicians can then push a specific Action plan (call sponsor, coping skill, meeting) and monitor follow-through in RecoveryIQ.",
+          "feature": "Kai - Actions: Push to App - RecoveryIQ: User Explorer"
+        },
+        {
+          "problem": "Relapse risk / early warning signs go unnoticed",
+          "solution": "Spot risk earlier by watching engagement patterns: drops in Actions/Spot Checks, fewer Kai messages, and rising Alert Level/Patterns & Progress insights. When signals change, staff can push a targeted Action and check in immediately.",
+          "feature": "RecoveryIQ: Alert Level + Patterns & Progress - Actions - Spot Check"
+        },
+        {
+          "problem": "Low engagement between sessions",
+          "solution": "Boost engagement with Kai for day-to-day support plus a weekly Action plan pushed from RecoveryIQ. When engagement drops (less Kai, fewer Actions/Spot Checks), RecoveryIQ makes it visible so staff can act.",
+          "feature": "Kai - Actions - Spot Check - RecoveryIQ: User Explorer"
+        },
+        {
+          "problem": "Clients Ghost Between Sessions",
+          "solution": "Turn the care plan into a small weekly habit list: staff suggest/push Actions to the participant's app, and the participant checks them off. If Actions/Spot Checks drop off, RecoveryIQ makes it obvious so you can intervene quickly.",
+          "feature": "Actions: Suggest & Push - Spot Check - RecoveryIQ: User Explorer"
+        },
+        {
+          "problem": "Referral & intake friction",
+          "solution": "Reduce friction by giving new clients a fast first step: a simple initial Action plan + an immediate Kai checkin to build momentum. Staff can then follow up using RecoveryIQ engagement signals rather than waiting for a missed appointment.",
+          "feature": "Actions - Kai - RecoveryIQ: Last Seen/Engagement"
+        },
+        {
+          "problem": "Family Involvement",
+          "solution": "Make family support more consistent by giving clear, concrete goals (Actions) and an easy way to stay engaged via Communities. Staff can anchor family check-ins around the same progress signals they use clinically.",
+          "feature": "Actions - Communities - RecoveryIQ (progress snapshot)"
+        },
+        {
+          "problem": "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+          "solution": "Turn existing program data into usable insights: trends, cohort comparisons, retention/attendance patterns, risk flags, and operational metrics. Deliver reports that help teams decide what to change and where to focus.",
+          "feature": "Backend Data Analytics - we ingest and analyze the organization's data using AI and other methods, then produce reports and recommendations."
+        },
+        {
+          "problem": "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+          "solution": "Reduce phone/email volume by answering FAQs instantly (hours, admissions steps, insurance, policies, visitation, what to bring, crisis steps). Escalate complex cases to staff with the context already collected.",
+          "feature": "Plug-in (website chatbot) for prospective clients/families and Community Smart Tool for enrolled clients. The chatbot can be configured with program-specific knowledge and tone."
+        },
+        {
+          "problem": "Website visitors drop off because they cannot get answers fast",
+          "solution": "Convert more visitors into calls/intakes by providing instant, accurate answers and guided next steps (screening questions, scheduling prompts, contact info). Route urgent needs to the right hotline or intake path.",
+          "feature": "Plug-in (website chatbot) configurable as an intake helper, sober coach, or information bot. Can be customized by the customer to match their voice and workflow."
+        }
+      ],
+      "problems": [
+        "Stigma keeps people from asking for help",
+        "Peer/sponsor matching is hard",
+        "Clients need 24/7 sober support between sessions",
+        "Cravings or urges outside of appointments",
+        "Relapse risk / early warning signs go unnoticed",
+        "Low engagement between sessions",
+        "Clients Ghost Between Sessions",
+        "Referral & intake friction",
+        "Family Involvement",
+        "Leaders lack clear analytics to understand engagement, outcomes, and operational bottlenecks",
+        "Staff are overwhelmed by repetitive questions and admin back-and-forth",
+        "Website visitors drop off because they cannot get answers fast"
+      ]
+    },
+    {
       "id": "valiant-living",
       "name": "Valiant Living",
       "website": "https://www.valiantliving.com",
